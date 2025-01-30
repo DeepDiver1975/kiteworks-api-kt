@@ -1,0 +1,60 @@
+
+# FeaturesList
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**folderCreate** | **kotlin.Int** | User can create folder | 
+**storageQuota** | **kotlin.Int** | User Storage quota | 
+**allowSftp** | **kotlin.Boolean** | Whether we should allow SFTP or not. |  [optional]
+**maxStorage** | **kotlin.Int** | Max storage in bytes |  [optional]
+**linkExpiration** | **kotlin.Int** | Link expiration date in days |  [optional]
+**maxLinkExpiration** | **kotlin.Int** | Max time period of link expiration in hours |  [optional]
+**setExpirationLower** | **kotlin.Boolean** | Enable user to set expiration date of the file they are sending |  [optional]
+**sendExternal** | **kotlin.Boolean** | Allow user to send files to external users |  [optional]
+**acNoAuth** | **kotlin.Boolean** | Allow user to send file to a user without their having to authenticate |  [optional]
+**ldapMapping** | **kotlin.String** | LDAP Mapping value to determine the user profile type |  [optional]
+**acVerifyRecipient** | **kotlin.Boolean** | Who can download file via the secure link |  [optional]
+**acl** | **kotlin.collections.List&lt;kotlin.String&gt;** | ACL |  [optional]
+**defaultAcl** | **kotlin.String** | Default ACL |  [optional]
+**mobileSyncItemsLimit** | **kotlin.Int** | Maximum files amount allowed to keep in mobile sync list |  [optional]
+**personalFolder** | **kotlin.Boolean** | User can have personal folder |  [optional]
+**excludedFileExtensions** | **kotlin.collections.List&lt;kotlin.String&gt;** | Get list of excluded file extensions |  [optional]
+**fileFilterExclusionGroups** | **kotlin.collections.List&lt;kotlin.String&gt;** | Get list of excluded file groups |  [optional]
+**fileFilterCustomFileTypes** | **kotlin.collections.List&lt;kotlin.String&gt;** | Get list of custom file types |  [optional]
+**secureMessageBody** | **kotlin.String** |  |  [optional]
+**secureMessageBodyDefault** | **kotlin.Boolean** |  |  [optional]
+**secureContainerRequired** | **kotlin.Boolean** |  |  [optional]
+**returnReceipt** | **kotlin.String** |  |  [optional]
+**returnReceiptDefault** | **kotlin.Boolean** |  |  [optional]
+**selfCopy** | **kotlin.String** |  |  [optional]
+**selfCopyDefault** | **kotlin.Boolean** |  |  [optional]
+**includeFingerprint** | **kotlin.String** |  |  [optional]
+**includeFingerprintDefault** | **kotlin.Boolean** |  |  [optional]
+**requestFile** | **kotlin.Boolean** |  |  [optional]
+**requestFileAllowViewableFile** | **kotlin.Boolean** |  |  [optional]
+**requestFileUploadAuth** | **kotlin.String** |  |  [optional]
+**requestFileAuthDefault** | **kotlin.String** |  |  [optional]
+**requestFileExpiration** | **kotlin.Int** |  |  [optional]
+**requestFileExpirationUserDecide** | **kotlin.Boolean** |  |  [optional]
+**requestFileExpirationMax** | **kotlin.Int** |  |  [optional]
+**requestFileUploadLimit** | **kotlin.Int** |  |  [optional]
+**requestFileUploadLimitUserDecide** | **kotlin.Boolean** |  |  [optional]
+**requestFileUploadsMax** | **kotlin.Int** |  |  [optional]
+**twoFactorAuth** | **kotlin.String** |  |  [optional]
+**inactiveExpiration** | **kotlin.Int** |  |  [optional]
+**userCanReactivate** | **kotlin.String** |  |  [optional]
+**cleanupInactiveAccount** | **kotlin.Boolean** |  |  [optional]
+**withdrawInactiveAccountFileLinks** | **kotlin.Boolean** |  |  [optional]
+**allowCollaboration** | **kotlin.Boolean** | Whether we should allow Collaboration and Shared Folders or not |  [optional]
+**allowLeavingSharedFolder** | **kotlin.Boolean** | Whether we should allow Collaboration and Shared Folders or not |  [optional]
+**sendFileLimit** | **kotlin.Int** | Upper limit allowed for number of attachments per mail. |  [optional]
+**remoteWipe** | **kotlin.Boolean** |  |  [optional]
+**deleteUnsharedData** | **kotlin.Boolean** |  |  [optional]
+**retainData** | **kotlin.Boolean** |  |  [optional]
+**retainPermissionToSharedData** | **kotlin.Boolean** |  |  [optional]
+**folderExpirationLimit** | **kotlin.Int** | Get profile max folder expiration |  [optional]
+**fileLifetime** | **kotlin.Int** | Get profile max file lifetime |  [optional]
+
+
+

@@ -1,0 +1,51 @@
+
+# org.openapitools.client.infrastructure.OctetByteArray
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**sharedBy** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**created** | **kotlin.String** |  |  [optional]
+**mime** | **kotlin.String** |  |  [optional]
+**permalink** | **kotlin.String** |  |  [optional]
+**parent** | [**Folder**](Folder.md) |  |  [optional]
+**modifier** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**locked** | **kotlin.Boolean** |  |  [optional]
+**tags** | [**kotlin.collections.List&lt;Tag&gt;**](Tag.md) |  |  [optional]
+**vendorDocId** | **kotlin.String** |  |  [optional]
+**creator** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**expire** | **kotlin.String** |  |  [optional]
+**sharedTime** | **kotlin.String** |  |  [optional]
+**adminQuarantineStatus** | **kotlin.String** |  |  [optional]
+**pathIds** | **kotlin.String** |  |  [optional]
+**dlpStatus** | **kotlin.String** |  |  [optional]
+**lockUser** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**members** | [**kotlin.collections.List&lt;Member&gt;**](Member.md) |  |  [optional]
+**permDeleted** | **kotlin.Boolean** |  |  [optional]
+**userId** | **kotlin.String** |  |  [optional]
+**clientModified** | **kotlin.String** |  |  [optional]
+**overriddenExpire** | **kotlin.Boolean** |  |  [optional]
+**fingerprint** | **kotlin.String** |  |  [optional]
+**parentId** | **kotlin.String** |  |  [optional]
+**secure** | **kotlin.Boolean** |  |  [optional]
+**id** | **kotlin.String** |  |  [optional]
+**wopiapp** | [**MobileInfo**](MobileInfo.md) |  |  [optional]
+**propertySize** | **kotlin.Int** |  |  [optional]
+**deleted** | **kotlin.Boolean** |  |  [optional]
+**avStatus** | **kotlin.String** |  |  [optional]
+**name** | **kotlin.String** |  |  [optional]
+**path** | **kotlin.String** |  |  [optional]
+**fingerprints** | [**kotlin.collections.List&lt;Fingerprint&gt;**](Fingerprint.md) |  |  [optional]
+**isShared** | **kotlin.Boolean** |  |  [optional]
+**lastModifiedBy** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**pushedObject** | [**PushedObject**](PushedObject.md) |  |  [optional]
+**permissions** | [**kotlin.collections.List&lt;Permission&gt;**](Permission.md) |  |  [optional]
+**modified** | **kotlin.String** |  |  [optional]
+**pushed** | **kotlin.Boolean** |  |  [optional]
+**source** | **kotlin.Int** |  |  [optional]
+**vendorDocName** | **kotlin.String** |  |  [optional]
+**type** | **kotlin.String** |  |  [optional]
+**clientCreated** | **kotlin.String** |  |  [optional]
+
+
+

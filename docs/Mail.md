@@ -1,0 +1,52 @@
+
+# Mail
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**attachmentCount** | **kotlin.String** |  |  [optional]
+**&#x60;package&#x60;** | [**Package**](Package.md) |  |  [optional]
+**darkModeStyle** | **kotlin.String** |  |  [optional]
+**variables** | **kotlin.String** |  |  [optional]
+**hasTrackingAccess** | **kotlin.Boolean** |  |  [optional]
+**sharedMailboxId** | **kotlin.String** |  |  [optional]
+**headline** | **kotlin.String** |  |  [optional]
+**actor** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**exists** | **kotlin.Boolean** |  |  [optional]
+**secureBody** | **kotlin.Boolean** |  |  [optional]
+**webFormFields** | **kotlin.String** |  |  [optional]
+**templateId** | **kotlin.Int** |  |  [optional]
+**recipients** | [**kotlin.collections.List&lt;Recipient&gt;**](Recipient.md) |  |  [optional]
+**trackingAccess** | [**kotlin.collections.List&lt;TrackingAccessRecipient&gt;**](TrackingAccessRecipient.md) |  |  [optional]
+**webFormId** | **kotlin.String** |  |  [optional]
+**watermark** | **kotlin.String** |  |  [optional]
+**emailFrom** | **kotlin.String** |  |  [optional]
+**htmlBody** | **kotlin.String** |  |  [optional]
+**sender** | [**UserBasic**](UserBasic.md) |  |  [optional]
+**dlpStatus** | **kotlin.String** |  |  [optional]
+**body** | **kotlin.String** |  |  [optional]
+**status** | **kotlin.String** |  |  [optional]
+**date** | **kotlin.String** |  |  [optional]
+**isPreview** | **kotlin.Boolean** |  |  [optional]
+**subject** | **kotlin.String** |  |  [optional]
+**fullHtmlBody** | **kotlin.String** |  |  [optional]
+**id** | **kotlin.String** |  |  [optional]
+**emailReturnReceipt** | [**kotlin.collections.List&lt;EmailReturnRecipient&gt;**](EmailReturnRecipient.md) |  |  [optional]
+**rawBody** | **kotlin.String** |  |  [optional]
+**deleted** | **kotlin.Boolean** |  |  [optional]
+**avStatus** | **kotlin.String** |  |  [optional]
+**isRead** | **kotlin.Boolean** |  |  [optional]
+**parentEmailId** | **kotlin.String** |  |  [optional]
+**bucket** | **kotlin.String** |  |  [optional]
+**notice** | **kotlin.String** |  |  [optional]
+**isUserSent** | **kotlin.Boolean** |  |  [optional]
+**templateBody** | **kotlin.String** |  |  [optional]
+**error** | **kotlin.String** |  |  [optional]
+**expirationDate** | **kotlin.String** |  |  [optional]
+**type** | **kotlin.String** |  |  [optional]
+**senderId** | **kotlin.String** |  |  [optional]
+**modifiedDate** | **kotlin.String** |  |  [optional]
+**emailPackageId** | **kotlin.String** |  |  [optional]
+
+
+

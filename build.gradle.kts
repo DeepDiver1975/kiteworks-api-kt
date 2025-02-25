@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
-    kotlin("multiplatform") version "1.9.20" // kotlin_version
-    kotlin("plugin.serialization") version "1.9.20" // kotlin_version
+    kotlin("multiplatform") version "2.0.0" // kotlin_version
+    kotlin("plugin.serialization") version "2.0.0" // kotlin_version
 }
 
 group = "org.openapitools"

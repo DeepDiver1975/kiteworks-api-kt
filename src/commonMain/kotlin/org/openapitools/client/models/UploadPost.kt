@@ -43,10 +43,10 @@ data class UploadPost (
     @SerialName(value = "totalChunks") val totalChunks: kotlin.Int? = null,
 
     /* File creation date set from client */
-    @SerialName(value = "clientCreated") val clientCreated: java.time.LocalDate? = null,
+    @SerialName(value = "clientCreated") val clientCreated: kotlin.String? = null,
 
     /* File modify date set from client */
-    @SerialName(value = "clientModified") val clientModified: java.time.LocalDate? = null,
+    @SerialName(value = "clientModified") val clientModified: kotlin.String? = null,
 
     /* Indicates whether Client would like to save file as new version */
     @SerialName(value = "disableAutoVersion") val disableAutoVersion: kotlin.Boolean? = null

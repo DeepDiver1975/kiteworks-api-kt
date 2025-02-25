@@ -86,7 +86,7 @@ data class VersionPost (
     @SerialName(value = "location") val location: kotlin.Int? = null,
 
     /* The date this version is created */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* The file mime type */
     @SerialName(value = "mime") val mime: kotlin.String? = null,

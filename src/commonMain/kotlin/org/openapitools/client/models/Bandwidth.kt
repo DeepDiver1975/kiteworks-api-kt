@@ -32,7 +32,7 @@ import kotlinx.serialization.encoding.*
 data class Bandwidth (
 
     /* Date */
-    @SerialName(value = "dateTime") val dateTime: java.time.LocalDate? = null,
+    @SerialName(value = "dateTime") val dateTime: kotlin.String? = null,
 
     /* Event Status */
     @SerialName(value = "eventStatus") val eventStatus: kotlin.Int? = null,

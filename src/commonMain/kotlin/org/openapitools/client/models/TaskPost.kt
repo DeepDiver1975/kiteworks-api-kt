@@ -36,7 +36,7 @@ data class TaskPost (
     @SerialName(value = "assigneeId") @Required val assigneeId: kotlin.Int,
 
     /* Task due date */
-    @SerialName(value = "due") @Required val due: java.time.LocalDate,
+    @SerialName(value = "due") @Required val due: kotlin.String,
 
     /* Task content */
     @SerialName(value = "contents") @Required val contents: kotlin.String,

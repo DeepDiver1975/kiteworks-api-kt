@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **mydirId** | **kotlin.String** | The unique identifier of the user&#39;s mydir directory.      *                  mydir directory stores copies of files from email attachments and user&#39;s profile image.      *                  mydir is not visible to end users | 
 **name** | **kotlin.String** | The name of the user | 
 **syncdirId** | **kotlin.String** | Id of sync dir | 
-**created** | [**java.time.LocalDate**](java.time.LocalDate.md) | User creation date |  [optional]
+**created** | **kotlin.String** | User creation date |  [optional]
 **userTypeId** | **kotlin.Int** | The unique identifier of the user type |  [optional]
 **&#x60;internal&#x60;** | **kotlin.Boolean** | Indicates that the user is an internal user |  [optional]
 **profileIcon** | **kotlin.String** | User profile icon link |  [optional]

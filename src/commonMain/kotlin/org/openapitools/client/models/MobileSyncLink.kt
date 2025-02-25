@@ -34,7 +34,7 @@ import kotlinx.serialization.encoding.*
 data class MobileSyncLink (
 
     /* Expiration date of link */
-    @SerialName(value = "expire") val expire: java.time.LocalDate? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     /* Entity type ID */
     @SerialName(value = "entityTypeId") val entityTypeId: kotlin.Int? = null,

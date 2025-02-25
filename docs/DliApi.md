@@ -298,8 +298,8 @@ val apiInstance = DliApi()
 val fileId : kotlin.String = fileId_example // kotlin.String | ID of the file
 val userId : kotlin.String = userId_example // kotlin.String | User Id
 val noDayBack : kotlin.Int = 56 // kotlin.Int | Number of days back to search
-val startDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Start date
-val endDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | End date
+val startDate : kotlin.String = 2013-10-20 // kotlin.String | Start date
+val endDate : kotlin.String = 2013-10-20 // kotlin.String | End date
 val filter : kotlin.String = filter_example // kotlin.String | All or my activities
 val search : kotlin.String = search_example // kotlin.String | Search by mail body, subject and sender/recipients
 val type : kotlin.String = type_example // kotlin.String | Activity type
@@ -328,8 +328,8 @@ Name | Type | Description  | Notes
  **fileId** | **kotlin.String**| ID of the file |
  **userId** | **kotlin.String**| User Id |
  **noDayBack** | **kotlin.Int**| Number of days back to search | [optional]
- **startDate** | **java.time.LocalDate**| Start date | [optional]
- **endDate** | **java.time.LocalDate**| End date | [optional]
+ **startDate** | **kotlin.String**| Start date | [optional]
+ **endDate** | **kotlin.String**| End date | [optional]
  **filter** | **kotlin.String**| All or my activities | [optional]
  **search** | **kotlin.String**| Search by mail body, subject and sender/recipients | [optional]
  **type** | **kotlin.String**| Activity type | [optional]
@@ -733,8 +733,8 @@ val apiInstance = DliApi()
 val folderId : kotlin.String = folderId_example // kotlin.String | ID of the folder
 val userId : kotlin.String = userId_example // kotlin.String | User Id
 val noDayBack : kotlin.Int = 56 // kotlin.Int | Number of days back to search
-val startDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Start date
-val endDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | End date
+val startDate : kotlin.String = 2013-10-20 // kotlin.String | Start date
+val endDate : kotlin.String = 2013-10-20 // kotlin.String | End date
 val filter : kotlin.String = filter_example // kotlin.String | All or my activities
 val search : kotlin.String = search_example // kotlin.String | Search by mail body, subject and sender/recipients
 val type : kotlin.String = type_example // kotlin.String | Activity type
@@ -763,8 +763,8 @@ Name | Type | Description  | Notes
  **folderId** | **kotlin.String**| ID of the folder |
  **userId** | **kotlin.String**| User Id |
  **noDayBack** | **kotlin.Int**| Number of days back to search | [optional]
- **startDate** | **java.time.LocalDate**| Start date | [optional]
- **endDate** | **java.time.LocalDate**| End date | [optional]
+ **startDate** | **kotlin.String**| Start date | [optional]
+ **endDate** | **kotlin.String**| End date | [optional]
  **filter** | **kotlin.String**| All or my activities | [optional]
  **search** | **kotlin.String**| Search by mail body, subject and sender/recipients | [optional]
  **type** | **kotlin.String**| Activity type | [optional]
@@ -978,8 +978,8 @@ Return the list of all activities of the specified user
 val apiInstance = DliApi()
 val id : kotlin.String = id_example // kotlin.String | ID of the user
 val noDayBack : kotlin.Int = 56 // kotlin.Int | Number of days back to search
-val startDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Start date
-val endDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | End date
+val startDate : kotlin.String = 2013-10-20 // kotlin.String | Start date
+val endDate : kotlin.String = 2013-10-20 // kotlin.String | End date
 val filter : kotlin.String = filter_example // kotlin.String | All or my activities
 val search : kotlin.String = search_example // kotlin.String | Search by mail body, subject and sender/recipients
 val type : kotlin.String = type_example // kotlin.String | Activity type
@@ -1007,8 +1007,8 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **kotlin.String**| ID of the user |
  **noDayBack** | **kotlin.Int**| Number of days back to search | [optional]
- **startDate** | **java.time.LocalDate**| Start date | [optional]
- **endDate** | **java.time.LocalDate**| End date | [optional]
+ **startDate** | **kotlin.String**| Start date | [optional]
+ **endDate** | **kotlin.String**| End date | [optional]
  **filter** | **kotlin.String**| All or my activities | [optional]
  **search** | **kotlin.String**| Search by mail body, subject and sender/recipients | [optional]
  **type** | **kotlin.String**| Activity type | [optional]
@@ -1052,16 +1052,16 @@ val senderId : kotlin.String = senderId_example // kotlin.String | Unique identi
 val senderIdColonIn : kotlin.String = senderIdColonIn_example // kotlin.String | Unique identifier of User who sent Email. Search for results that contain any of specified values of this parameter.
 val isRecipient : kotlin.Boolean = true // kotlin.Boolean | Unique identifier of User who receive Email
 val read : kotlin.Boolean = true // kotlin.Boolean | Whether the email is read or not by current user
-val date : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email creation date
-val dateColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email creation date. Search for result that has this parameter value greater than specified.
-val dateColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email creation date. Search for result that has this parameter value greater or equal to the specified.
-val dateColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email creation date. Search for result that has this parameter value less than specified.
-val dateColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email creation date. Search for result that has this parameter value less or equal to the specified.
-val modifiedDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email modification date
-val modifiedDateColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email modification date. Search for result that has this parameter value greater than specified.
-val modifiedDateColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email modification date. Search for result that has this parameter value greater or equal to the specified.
-val modifiedDateColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email modification date. Search for result that has this parameter value less than specified.
-val modifiedDateColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Email modification date. Search for result that has this parameter value less or equal to the specified.
+val date : kotlin.String = 2013-10-20 // kotlin.String | Email creation date
+val dateColonGt : kotlin.String = 2013-10-20 // kotlin.String | Email creation date. Search for result that has this parameter value greater than specified.
+val dateColonGte : kotlin.String = 2013-10-20 // kotlin.String | Email creation date. Search for result that has this parameter value greater or equal to the specified.
+val dateColonLt : kotlin.String = 2013-10-20 // kotlin.String | Email creation date. Search for result that has this parameter value less than specified.
+val dateColonLte : kotlin.String = 2013-10-20 // kotlin.String | Email creation date. Search for result that has this parameter value less or equal to the specified.
+val modifiedDate : kotlin.String = 2013-10-20 // kotlin.String | Email modification date
+val modifiedDateColonGt : kotlin.String = 2013-10-20 // kotlin.String | Email modification date. Search for result that has this parameter value greater than specified.
+val modifiedDateColonGte : kotlin.String = 2013-10-20 // kotlin.String | Email modification date. Search for result that has this parameter value greater or equal to the specified.
+val modifiedDateColonLt : kotlin.String = 2013-10-20 // kotlin.String | Email modification date. Search for result that has this parameter value less than specified.
+val modifiedDateColonLte : kotlin.String = 2013-10-20 // kotlin.String | Email modification date. Search for result that has this parameter value less or equal to the specified.
 val deleted : kotlin.Boolean = true // kotlin.Boolean | Indicates that Email is deleted
 val emailPackageId : kotlin.String = emailPackageId_example // kotlin.String | Email Package unique identifier
 val emailPackageIdColonIn : kotlin.String = emailPackageIdColonIn_example // kotlin.String | Email Package unique identifier. Search for results that contain any of specified values of this parameter.
@@ -1102,16 +1102,16 @@ Name | Type | Description  | Notes
  **senderIdColonIn** | **kotlin.String**| Unique identifier of User who sent Email. Search for results that contain any of specified values of this parameter. | [optional]
  **isRecipient** | **kotlin.Boolean**| Unique identifier of User who receive Email | [optional]
  **read** | **kotlin.Boolean**| Whether the email is read or not by current user | [optional]
- **date** | **java.time.LocalDate**| Email creation date | [optional]
- **dateColonGt** | **java.time.LocalDate**| Email creation date. Search for result that has this parameter value greater than specified. | [optional]
- **dateColonGte** | **java.time.LocalDate**| Email creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **dateColonLt** | **java.time.LocalDate**| Email creation date. Search for result that has this parameter value less than specified. | [optional]
- **dateColonLte** | **java.time.LocalDate**| Email creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
- **modifiedDate** | **java.time.LocalDate**| Email modification date | [optional]
- **modifiedDateColonGt** | **java.time.LocalDate**| Email modification date. Search for result that has this parameter value greater than specified. | [optional]
- **modifiedDateColonGte** | **java.time.LocalDate**| Email modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **modifiedDateColonLt** | **java.time.LocalDate**| Email modification date. Search for result that has this parameter value less than specified. | [optional]
- **modifiedDateColonLte** | **java.time.LocalDate**| Email modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **date** | **kotlin.String**| Email creation date | [optional]
+ **dateColonGt** | **kotlin.String**| Email creation date. Search for result that has this parameter value greater than specified. | [optional]
+ **dateColonGte** | **kotlin.String**| Email creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **dateColonLt** | **kotlin.String**| Email creation date. Search for result that has this parameter value less than specified. | [optional]
+ **dateColonLte** | **kotlin.String**| Email creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **modifiedDate** | **kotlin.String**| Email modification date | [optional]
+ **modifiedDateColonGt** | **kotlin.String**| Email modification date. Search for result that has this parameter value greater than specified. | [optional]
+ **modifiedDateColonGte** | **kotlin.String**| Email modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **modifiedDateColonLt** | **kotlin.String**| Email modification date. Search for result that has this parameter value less than specified. | [optional]
+ **modifiedDateColonLte** | **kotlin.String**| Email modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **deleted** | **kotlin.Boolean**| Indicates that Email is deleted | [optional]
  **emailPackageId** | **kotlin.String**| Email Package unique identifier | [optional]
  **emailPackageIdColonIn** | **kotlin.String**| Email Package unique identifier. Search for results that contain any of specified values of this parameter. | [optional]

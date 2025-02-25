@@ -6,12 +6,12 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **userId** | **kotlin.String** | Unique identifier of the user | 
 **id** | **kotlin.String** | The Id of the task of generating the export |  [optional]
-**startDate** | [**java.time.LocalDate**](java.time.LocalDate.md) | Start date |  [optional]
-**endDate** | [**java.time.LocalDate**](java.time.LocalDate.md) | End date |  [optional]
+**startDate** | **kotlin.String** | Start date |  [optional]
+**endDate** | **kotlin.String** | End date |  [optional]
 **status** | **kotlin.String** | The status generating the export data |  [optional]
 **downloadURL** | **kotlin.String** | The URL for downloading the exported data |  [optional]
 **type** | **kotlin.String** | The export type (activities, files, or emails) |  [optional]
-**generatedDate** | [**java.time.LocalDate**](java.time.LocalDate.md) | The date the report is generated |  [optional]
+**generatedDate** | **kotlin.String** | The date the report is generated |  [optional]
 **fileName** | **kotlin.String** | The generated report filename |  [optional]
 **links** | **kotlin.String** |  |  [optional]
 

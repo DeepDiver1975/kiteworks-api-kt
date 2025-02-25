@@ -32,10 +32,10 @@ import kotlinx.serialization.encoding.*
 data class ExportPost (
 
     /* Start date */
-    @SerialName(value = "startDate") @Required val startDate: java.time.LocalDate,
+    @SerialName(value = "startDate") @Required val startDate: kotlin.String,
 
     /* End date */
-    @SerialName(value = "endDate") @Required val endDate: java.time.LocalDate,
+    @SerialName(value = "endDate") @Required val endDate: kotlin.String,
 
     /* The export type (activities, files, or emails) */
     @SerialName(value = "types") @Required val types: kotlin.collections.List<kotlin.String>

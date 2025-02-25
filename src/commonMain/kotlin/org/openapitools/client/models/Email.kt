@@ -80,14 +80,14 @@ data class Email (
     /* Email type */
     @SerialName(value = "type") @Required val type: kotlin.String,
 
-    @SerialName(value = "date") @Required val date: java.time.LocalDate,
+    @SerialName(value = "date") @Required val date: kotlin.String,
 
     /* Email Package unique identifier */
     @SerialName(value = "emailPackageId") @Required val emailPackageId: kotlin.String,
 
     @SerialName(value = "recipients") @Required val recipients: kotlin.collections.List<Recipient>,
 
-    @SerialName(value = "modifiedDate") @Required val modifiedDate: java.time.LocalDate,
+    @SerialName(value = "modifiedDate") @Required val modifiedDate: kotlin.String,
 
     /* Identifier of parent email */
     @SerialName(value = "parentEmailId") @Required val parentEmailId: kotlin.String,
@@ -111,7 +111,7 @@ data class Email (
 
     @SerialName(value = "package") val `package`: Package? = null,
 
-    @SerialName(value = "expirationDate") val expirationDate: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "expirationDate") val expirationDate: kotlin.String? = null,
 
     @SerialName(value = "attachmentCount") val attachmentCount: kotlin.Boolean? = null,
 

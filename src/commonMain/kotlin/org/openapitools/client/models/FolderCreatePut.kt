@@ -52,7 +52,7 @@ data class FolderCreatePut (
     @SerialName(value = "syncable") val syncable: kotlin.Boolean? = null,
 
     /* The folder expiration date. Applicable to top level folders */
-    @SerialName(value = "expire") val expire: java.time.LocalDate? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     /* The file's lifetime in the folder */
     @SerialName(value = "fileLifetime") val fileLifetime: kotlin.Int? = null,

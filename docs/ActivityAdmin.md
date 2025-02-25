@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **message** | **kotlin.String** | User-friendly message | 
 **type** | **kotlin.String** | Activity type | 
 **user** | **kotlin.String** | Direct user&#39;s info | 
-**created** | [**java.time.LocalDate**](java.time.LocalDate.md) | Activity creation date |  [optional]
+**created** | **kotlin.String** | Activity creation date |  [optional]
 **&#x60;data&#x60;** | **kotlin.collections.List&lt;kotlin.String&gt;** | Contains information about affected entities |  [optional]
 **permissions** | **kotlin.collections.List&lt;kotlin.String&gt;** | List of action allowed for user on Object in activity |  [optional]
 **successful** | **kotlin.Int** | Successful or failed |  [optional]

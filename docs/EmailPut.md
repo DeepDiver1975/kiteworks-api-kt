@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **status** | [**inline**](#Status) | Email status | 
 **emailPackageId** | **kotlin.Int** | Email Package unique identifier |  [optional]
 **secureBody** | **kotlin.Boolean** |  |  [optional]
-**modifiedDate** | [**java.time.LocalDate**](java.time.LocalDate.md) |  |  [optional]
+**modifiedDate** | **kotlin.String** |  |  [optional]
 **parentEmailId** | **kotlin.Int** | The identifier of forwarded email |  [optional]
 
 

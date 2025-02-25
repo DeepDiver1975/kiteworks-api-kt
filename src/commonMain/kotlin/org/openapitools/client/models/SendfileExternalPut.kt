@@ -58,7 +58,7 @@ data class SendfileExternalPut (
 
     @SerialName(value = "acl") val acl: SendfileExternalPut.Acl? = null,
 
-    @SerialName(value = "expire") val expire: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     @SerialName(value = "draft") val draft: kotlin.Boolean? = null,
 
@@ -90,15 +90,15 @@ data class SendfileExternalPut (
     /**
      * 
      *
-     * Values: verifyRecipient,noAuth,otp,`internal`,anyoneAuth
+     * Values: VERIFY_RECIPIENT,NO_AUTH,OTP,INTERNAL,ANYONE_AUTH
      */
     @Serializable
     enum class Acl(val value: kotlin.String) {
-        @SerialName(value = "verify_recipient") verifyRecipient("verify_recipient"),
-        @SerialName(value = "no_auth") noAuth("no_auth"),
-        @SerialName(value = "otp") otp("otp"),
-        @SerialName(value = "internal") `internal`("internal"),
-        @SerialName(value = "anyone_auth") anyoneAuth("anyone_auth");
+        @SerialName(value = "verify_recipient") VERIFY_RECIPIENT("verify_recipient"),
+        @SerialName(value = "no_auth") NO_AUTH("no_auth"),
+        @SerialName(value = "otp") OTP("otp"),
+        @SerialName(value = "internal") INTERNAL("internal"),
+        @SerialName(value = "anyone_auth") ANYONE_AUTH("anyone_auth");
     }
 }
 

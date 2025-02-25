@@ -1078,7 +1078,7 @@ open class FilesApi : ApiClient {
      * @return kotlin.collections.List<Comment>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restFilesIdCommentsGet(id: kotlin.String, parentId: kotlin.Int? = null, parentIdColonIn: kotlin.Int? = null, userId: kotlin.String? = null, userIdColonIn: kotlin.String? = null, created: java.time.LocalDate? = null, createdColonGt: java.time.LocalDate? = null, createdColonGte: java.time.LocalDate? = null, createdColonLt: java.time.LocalDate? = null, createdColonLte: java.time.LocalDate? = null, modified: java.time.LocalDate? = null, modifiedColonGt: java.time.LocalDate? = null, modifiedColonGte: java.time.LocalDate? = null, modifiedColonLt: java.time.LocalDate? = null, modifiedColonLte: java.time.LocalDate? = null, contentsColonContains: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Comment>> {
+    open suspend fun restFilesIdCommentsGet(id: kotlin.String, parentId: kotlin.Int? = null, parentIdColonIn: kotlin.Int? = null, userId: kotlin.String? = null, userIdColonIn: kotlin.String? = null, created: kotlin.String? = null, createdColonGt: kotlin.String? = null, createdColonGte: kotlin.String? = null, createdColonLt: kotlin.String? = null, createdColonLte: kotlin.String? = null, modified: kotlin.String? = null, modifiedColonGt: kotlin.String? = null, modifiedColonGte: kotlin.String? = null, modifiedColonLt: kotlin.String? = null, modifiedColonLte: kotlin.String? = null, contentsColonContains: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Comment>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -1681,7 +1681,7 @@ open class FilesApi : ApiClient {
      * @param clientModified Client modified field for the file (optional)
      * @return void
      */
-    open suspend fun restFilesIdPost(id: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: java.time.LocalDate? = null, clientModified: java.time.LocalDate? = null): HttpResponse<Unit> {
+    open suspend fun restFilesIdPost(id: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: kotlin.String? = null, clientModified: kotlin.String? = null): HttpResponse<Unit> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -1814,7 +1814,7 @@ open class FilesApi : ApiClient {
      * @return kotlin.collections.List<Task>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restFilesIdTasksGet(id: kotlin.String, assigneeId: kotlin.String? = null, assigneeIdColonIn: kotlin.String? = null, due: java.time.LocalDate? = null, dueColonGt: java.time.LocalDate? = null, dueColonGte: java.time.LocalDate? = null, dueColonLt: java.time.LocalDate? = null, dueColonLte: java.time.LocalDate? = null, parentId: kotlin.Int? = null, parentIdColonIn: kotlin.Int? = null, userId: kotlin.String? = null, userIdColonIn: kotlin.String? = null, created: java.time.LocalDate? = null, createdColonGt: java.time.LocalDate? = null, createdColonGte: java.time.LocalDate? = null, createdColonLt: java.time.LocalDate? = null, createdColonLte: java.time.LocalDate? = null, modified: java.time.LocalDate? = null, modifiedColonGt: java.time.LocalDate? = null, modifiedColonGte: java.time.LocalDate? = null, modifiedColonLt: java.time.LocalDate? = null, modifiedColonLte: java.time.LocalDate? = null, contentsColonContains: kotlin.String? = null, status: kotlin.collections.List<kotlin.String>? = null, deleted: kotlin.Boolean? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Task>> {
+    open suspend fun restFilesIdTasksGet(id: kotlin.String, assigneeId: kotlin.String? = null, assigneeIdColonIn: kotlin.String? = null, due: kotlin.String? = null, dueColonGt: kotlin.String? = null, dueColonGte: kotlin.String? = null, dueColonLt: kotlin.String? = null, dueColonLte: kotlin.String? = null, parentId: kotlin.Int? = null, parentIdColonIn: kotlin.Int? = null, userId: kotlin.String? = null, userIdColonIn: kotlin.String? = null, created: kotlin.String? = null, createdColonGt: kotlin.String? = null, createdColonGte: kotlin.String? = null, createdColonLt: kotlin.String? = null, createdColonLte: kotlin.String? = null, modified: kotlin.String? = null, modifiedColonGt: kotlin.String? = null, modifiedColonGte: kotlin.String? = null, modifiedColonLt: kotlin.String? = null, modifiedColonLte: kotlin.String? = null, contentsColonContains: kotlin.String? = null, status: kotlin.collections.List<kotlin.String>? = null, deleted: kotlin.Boolean? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Task>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -2412,7 +2412,7 @@ open class FilesApi : ApiClient {
      * @param note Indicates whether the file is note (optional)
      * @return void
      */
-    open suspend fun restFoldersIdActionsFilePost(id: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: java.time.LocalDate? = null, clientModified: java.time.LocalDate? = null, disableAutoVersion: kotlin.Boolean? = null, note: kotlin.Boolean? = null): HttpResponse<Unit> {
+    open suspend fun restFoldersIdActionsFilePost(id: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: kotlin.String? = null, clientModified: kotlin.String? = null, disableAutoVersion: kotlin.Boolean? = null, note: kotlin.Boolean? = null): HttpResponse<Unit> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -2648,7 +2648,7 @@ open class FilesApi : ApiClient {
      * @param clientModified Client modified field for the file (optional)
      * @return void
      */
-    open suspend fun restRequestFileRefActionsFilePost(ref: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: java.time.LocalDate? = null, clientModified: java.time.LocalDate? = null): HttpResponse<Unit> {
+    open suspend fun restRequestFileRefActionsFilePost(ref: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: kotlin.String? = null, clientModified: kotlin.String? = null): HttpResponse<Unit> {
 
         val localVariableAuthNames = listOf<String>()
 

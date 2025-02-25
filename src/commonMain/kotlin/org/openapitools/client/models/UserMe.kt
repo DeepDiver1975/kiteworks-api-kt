@@ -63,7 +63,7 @@ data class UserMe (
     @SerialName(value = "syncdirId") @Required val syncdirId: kotlin.String,
 
     /* User creation date */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* The unique identifier of the user type */
     @SerialName(value = "userTypeId") val userTypeId: kotlin.Int? = null,

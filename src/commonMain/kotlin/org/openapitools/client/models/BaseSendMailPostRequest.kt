@@ -129,27 +129,27 @@ data class BaseSendMailPostRequest (
     /**
      * The access control.
      *
-     * Values: verifyRecipient,noAuth,otp,`internal`,anyoneAuth
+     * Values: VERIFY_RECIPIENT,NO_AUTH,OTP,INTERNAL,ANYONE_AUTH
      */
     @Serializable
     enum class Acl(val value: kotlin.String) {
-        @SerialName(value = "verify_recipient") verifyRecipient("verify_recipient"),
-        @SerialName(value = "no_auth") noAuth("no_auth"),
-        @SerialName(value = "otp") otp("otp"),
-        @SerialName(value = "internal") `internal`("internal"),
-        @SerialName(value = "anyone_auth") anyoneAuth("anyone_auth");
+        @SerialName(value = "verify_recipient") VERIFY_RECIPIENT("verify_recipient"),
+        @SerialName(value = "no_auth") NO_AUTH("no_auth"),
+        @SerialName(value = "otp") OTP("otp"),
+        @SerialName(value = "internal") INTERNAL("internal"),
+        @SerialName(value = "anyone_auth") ANYONE_AUTH("anyone_auth");
     }
     /**
      * The mail type. Default value is original
      *
-     * Values: original,forward,reply,resend
+     * Values: ORIGINAL,FORWARD,REPLY,RESEND
      */
     @Serializable
     enum class Type(val value: kotlin.String) {
-        @SerialName(value = "original") original("original"),
-        @SerialName(value = "forward") forward("forward"),
-        @SerialName(value = "reply") reply("reply"),
-        @SerialName(value = "resend") resend("resend");
+        @SerialName(value = "original") ORIGINAL("original"),
+        @SerialName(value = "forward") FORWARD("forward"),
+        @SerialName(value = "reply") REPLY("reply"),
+        @SerialName(value = "resend") RESEND("resend");
     }
 }
 

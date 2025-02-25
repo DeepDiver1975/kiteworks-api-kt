@@ -65,10 +65,10 @@ data class Comment (
     @SerialName(value = "folderId") val folderId: kotlin.String? = null,
 
     /* Comment creation date. */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* Comment modification date */
-    @SerialName(value = "modified") val modified: java.time.LocalDate? = null,
+    @SerialName(value = "modified") val modified: kotlin.String? = null,
 
     /* Indicates that comment is deleted. */
     @SerialName(value = "deleted") val deleted: kotlin.Boolean? = null,

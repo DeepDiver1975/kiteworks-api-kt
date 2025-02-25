@@ -65,10 +65,10 @@ data class SourceContent (
     @SerialName(value = "wopiapp") @Required val wopiapp: kotlin.Boolean,
 
     /* Time of Source created in UTC timestamp */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* Time of Source modified in UTC timestamp */
-    @SerialName(value = "modified") val modified: java.time.LocalDate? = null,
+    @SerialName(value = "modified") val modified: kotlin.String? = null,
 
     /* Status of the source */
     @SerialName(value = "status") val status: kotlin.String? = null,

@@ -9,11 +9,11 @@ Name | Type | Description | Notes
 **parentId** | **kotlin.String** | Parent Folder identifier | 
 **userId** | **kotlin.String** | Unique identifier of Object creator | 
 **propertySize** | **kotlin.String** | File content size | 
-**created** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) | Object creation date |  [optional]
+**created** | **kotlin.String** | Object creation date |  [optional]
 **deleted** | **kotlin.Boolean** | Indicates that object is deleted |  [optional]
 **permDeleted** | **kotlin.Boolean** | Indicates that object is permanently deleted |  [optional]
-**expire** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) | Object expiry date |  [optional]
-**modified** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) | Object modification date |  [optional]
+**expire** | **kotlin.String** | Object expiry date |  [optional]
+**modified** | **kotlin.String** | Object modification date |  [optional]
 **parent** | [**Folder**](Folder.md) |  |  [optional]
 **permalink** | **kotlin.String** | Object permalink |  [optional]
 **creator** | [**UserBasicInfo**](UserBasicInfo.md) |  |  [optional]

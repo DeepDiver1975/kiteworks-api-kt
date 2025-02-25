@@ -245,11 +245,11 @@ val verified : kotlin.Boolean = true // kotlin.Boolean | Whether the user is ver
 val suspended : kotlin.Boolean = true // kotlin.Boolean | Whether the user is suspended
 val isRecipient : kotlin.Boolean = true // kotlin.Boolean | Whether user is recipient
 val allowsCollaboration : kotlin.Boolean = true // kotlin.Boolean | Whether user's profile allows collaboration access
-val created : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | User creation date
-val createdColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | User creation date. Search for result that has this parameter value greater than specified.
-val createdColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | User creation date. Search for result that has this parameter value greater or equal to the specified.
-val createdColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | User creation date. Search for result that has this parameter value less than specified.
-val createdColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | User creation date. Search for result that has this parameter value less or equal to the specified.
+val created : kotlin.String = 2013-10-20 // kotlin.String | User creation date
+val createdColonGt : kotlin.String = 2013-10-20 // kotlin.String | User creation date. Search for result that has this parameter value greater than specified.
+val createdColonGte : kotlin.String = 2013-10-20 // kotlin.String | User creation date. Search for result that has this parameter value greater or equal to the specified.
+val createdColonLt : kotlin.String = 2013-10-20 // kotlin.String | User creation date. Search for result that has this parameter value less than specified.
+val createdColonLte : kotlin.String = 2013-10-20 // kotlin.String | User creation date. Search for result that has this parameter value less or equal to the specified.
 val orderBy : kotlin.collections.List<kotlin.String> =  // kotlin.collections.List<kotlin.String> | Sorting options
 val offset : kotlin.Int = 56 // kotlin.Int | Offset
 val limit : kotlin.Int = 56 // kotlin.Int | Limit
@@ -285,11 +285,11 @@ Name | Type | Description  | Notes
  **suspended** | **kotlin.Boolean**| Whether the user is suspended | [optional]
  **isRecipient** | **kotlin.Boolean**| Whether user is recipient | [optional]
  **allowsCollaboration** | **kotlin.Boolean**| Whether user&#39;s profile allows collaboration access | [optional]
- **created** | **java.time.LocalDate**| User creation date | [optional]
- **createdColonGt** | **java.time.LocalDate**| User creation date. Search for result that has this parameter value greater than specified. | [optional]
- **createdColonGte** | **java.time.LocalDate**| User creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **createdColonLt** | **java.time.LocalDate**| User creation date. Search for result that has this parameter value less than specified. | [optional]
- **createdColonLte** | **java.time.LocalDate**| User creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **created** | **kotlin.String**| User creation date | [optional]
+ **createdColonGt** | **kotlin.String**| User creation date. Search for result that has this parameter value greater than specified. | [optional]
+ **createdColonGte** | **kotlin.String**| User creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **createdColonLt** | **kotlin.String**| User creation date. Search for result that has this parameter value less than specified. | [optional]
+ **createdColonLte** | **kotlin.String**| User creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **orderBy** | [**kotlin.collections.List&lt;kotlin.String&gt;**](kotlin.String.md)| Sorting options | [optional]
  **offset** | **kotlin.Int**| Offset | [optional]
  **limit** | **kotlin.Int**| Limit | [optional]

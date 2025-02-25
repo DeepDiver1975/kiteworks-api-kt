@@ -126,7 +126,7 @@ open class RequestFileApi : ApiClient {
      * @param clientModified Client modified field for the file (optional)
      * @return void
      */
-    open suspend fun restRequestFileRefActionsFilePost(ref: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: java.time.LocalDate? = null, clientModified: java.time.LocalDate? = null): HttpResponse<Unit> {
+    open suspend fun restRequestFileRefActionsFilePost(ref: kotlin.String, body: io.ktor.client.request.forms.InputProvider, returnEntity: kotlin.Boolean? = null, mode: kotlin.String? = null, clientCreated: kotlin.String? = null, clientModified: kotlin.String? = null): HttpResponse<Unit> {
 
         val localVariableAuthNames = listOf<String>()
 

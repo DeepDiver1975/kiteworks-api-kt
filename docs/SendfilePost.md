@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **bcc** | **kotlin.collections.List&lt;kotlin.String&gt;** |  |  [optional]
 **files** | **kotlin.collections.List&lt;kotlin.String&gt;** |  |  [optional]
 **acl** | [**inline**](#Acl) |  |  [optional]
-**expire** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) |  |  [optional]
+**expire** | **kotlin.String** |  |  [optional]
 **draft** | **kotlin.Boolean** |  |  [optional]
 **preview** | **kotlin.Boolean** | Indicates that email is a preview email |  [optional]
 **watermark** | **kotlin.String** | The watermark on the preview email |  [optional]

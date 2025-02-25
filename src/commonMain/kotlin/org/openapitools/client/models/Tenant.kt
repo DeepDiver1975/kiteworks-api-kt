@@ -51,7 +51,7 @@ data class Tenant (
     @SerialName(value = "hostname") val hostname: kotlin.String? = null,
 
     /* Tenant Creation Date */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* Status\\State of Tenant */
     @SerialName(value = "state") val state: kotlin.String? = null,
@@ -63,7 +63,7 @@ data class Tenant (
     @SerialName(value = "deploymentId") val deploymentId: kotlin.String? = null,
 
     /* Usage Expiry */
-    @SerialName(value = "expires") val expires: java.time.LocalDate? = null,
+    @SerialName(value = "expires") val expires: kotlin.String? = null,
 
     /* Monthly storage usage limit */
     @SerialName(value = "storageLimit") val storageLimit: kotlin.Int? = null,

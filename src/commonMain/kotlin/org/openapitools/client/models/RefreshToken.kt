@@ -42,7 +42,7 @@ data class RefreshToken (
     @SerialName(value = "userId") val userId: kotlin.Int? = null,
 
     /* Token expiry date */
-    @SerialName(value = "expire") val expire: kotlinx.datetime.Instant? = null
+    @SerialName(value = "expire") val expire: kotlin.String? = null
 
 )
 

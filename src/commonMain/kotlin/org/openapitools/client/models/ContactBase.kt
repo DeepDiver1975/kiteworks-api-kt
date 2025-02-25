@@ -46,10 +46,10 @@ data class ContactBase (
     @SerialName(value = "name") @Required val name: kotlin.String,
 
     /* Contact modification date */
-    @SerialName(value = "modified") val modified: java.time.LocalDate? = null,
+    @SerialName(value = "modified") val modified: kotlin.String? = null,
 
     /* Contact creation date */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* List of emails contained by Contact */
     @SerialName(value = "items") val items: kotlin.collections.List<ContactItem>? = null,

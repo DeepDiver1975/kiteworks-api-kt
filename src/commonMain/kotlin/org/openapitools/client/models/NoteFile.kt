@@ -98,7 +98,7 @@ data class NoteFile (
     @SerialName(value = "wopiapp") @Required val wopiapp: kotlin.Boolean,
 
     /* Object creation date */
-    @SerialName(value = "created") val created: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* Indicates that object is deleted */
     @SerialName(value = "deleted") val deleted: kotlin.Boolean? = null,
@@ -107,10 +107,10 @@ data class NoteFile (
     @SerialName(value = "permDeleted") val permDeleted: kotlin.Boolean? = null,
 
     /* Object expiry date */
-    @SerialName(value = "expire") val expire: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     /* Object modification date */
-    @SerialName(value = "modified") val modified: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "modified") val modified: kotlin.String? = null,
 
     @SerialName(value = "parent") val parent: Folder? = null,
 
@@ -141,10 +141,10 @@ data class NoteFile (
     @SerialName(value = "lockUser") val lockUser: User? = null,
 
     /* Original created time of the file */
-    @SerialName(value = "clientCreated") val clientCreated: java.time.LocalDate? = null,
+    @SerialName(value = "clientCreated") val clientCreated: kotlin.String? = null,
 
     /* Original Modified time of the file */
-    @SerialName(value = "clientModified") val clientModified: java.time.LocalDate? = null,
+    @SerialName(value = "clientModified") val clientModified: kotlin.String? = null,
 
     /* File members list (Explicit field. May be retrieved only if mentioned in \"with\" parameter) */
     @SerialName(value = "members") val members: kotlin.collections.List<Member>? = null,

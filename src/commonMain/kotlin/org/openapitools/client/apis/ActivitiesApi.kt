@@ -60,7 +60,7 @@ open class ActivitiesApi : ApiClient {
      * @return kotlin.collections.List<Activity>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restActivitiesGet(noDayBack: kotlin.Int? = null, startDate: java.time.LocalDate? = null, endDate: java.time.LocalDate? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Activity>> {
+    open suspend fun restActivitiesGet(noDayBack: kotlin.Int? = null, startDate: kotlin.String? = null, endDate: kotlin.String? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Activity>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -126,7 +126,7 @@ open class ActivitiesApi : ApiClient {
      * @return kotlin.collections.List<Activity>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restFilesFileIdActivitiesGet(fileId: kotlin.String, noDayBack: kotlin.Int? = null, startDate: java.time.LocalDate? = null, endDate: java.time.LocalDate? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Activity>> {
+    open suspend fun restFilesFileIdActivitiesGet(fileId: kotlin.String, noDayBack: kotlin.Int? = null, startDate: kotlin.String? = null, endDate: kotlin.String? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Activity>> {
 
         val localVariableAuthNames = listOf<String>()
 

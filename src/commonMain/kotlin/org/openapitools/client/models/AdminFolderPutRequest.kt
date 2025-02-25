@@ -49,13 +49,13 @@ data class AdminFolderPutRequest (
     /**
      * Apply expire to folder only / files only / folder and files
      *
-     * Values: foldersOnly,filesOnly,foldersAndFiles
+     * Values: FOLDERS_ONLY,FILES_ONLY,FOLDERS_AND_FILES
      */
     @Serializable
     enum class ApplyTo(val value: kotlin.String) {
-        @SerialName(value = "folders_only") foldersOnly("folders_only"),
-        @SerialName(value = "files_only") filesOnly("files_only"),
-        @SerialName(value = "folders_and_files") foldersAndFiles("folders_and_files");
+        @SerialName(value = "folders_only") FOLDERS_ONLY("folders_only"),
+        @SerialName(value = "files_only") FILES_ONLY("files_only"),
+        @SerialName(value = "folders_and_files") FOLDERS_AND_FILES("folders_and_files");
     }
 }
 

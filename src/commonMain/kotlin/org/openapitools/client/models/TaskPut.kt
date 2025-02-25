@@ -36,7 +36,7 @@ data class TaskPut (
     @SerialName(value = "assigneeId") @Required val assigneeId: kotlin.Int,
 
     /* Task due date */
-    @SerialName(value = "due") @Required val due: java.time.LocalDate,
+    @SerialName(value = "due") @Required val due: kotlin.String,
 
     /* Task content */
     @SerialName(value = "contents") @Required val contents: kotlin.String,
@@ -49,13 +49,13 @@ data class TaskPut (
     /**
      * 'D' = 'Defined', 'P' = 'In Progress', 'C' = 'Completed'
      *
-     * Values: d,p,c
+     * Values: D,P,C
      */
     @Serializable
     enum class Status(val value: kotlin.String) {
-        @SerialName(value = "D") d("D"),
-        @SerialName(value = "P") p("P"),
-        @SerialName(value = "C") c("C");
+        @SerialName(value = "D") D("D"),
+        @SerialName(value = "P") P("P"),
+        @SerialName(value = "C") C("C");
     }
 }
 

@@ -47,7 +47,7 @@ data class RequestFilePost (
     @SerialName(value = "body") val body: kotlin.String? = null,
 
     /* Expiration date for the requestFile link. The link becomes unusable after this date,                         but the files uploaded using this link will follow the expiry setting of the folder. */
-    @SerialName(value = "expire") val expire: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     /* The remaining uploads allowed */
     @SerialName(value = "count") val count: kotlin.Int? = null,

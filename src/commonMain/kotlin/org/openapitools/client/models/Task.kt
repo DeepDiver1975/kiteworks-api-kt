@@ -54,13 +54,13 @@ data class Task (
     @SerialName(value = "assigneeId") @Required val assigneeId: kotlin.String,
 
     /* Task due date */
-    @SerialName(value = "due") @Required val due: java.time.LocalDate,
+    @SerialName(value = "due") @Required val due: kotlin.String,
 
     /* Identifier of User who created a Task */
     @SerialName(value = "userId") @Required val userId: kotlin.String,
 
     /* Task creation date */
-    @SerialName(value = "created") @Required val created: java.time.LocalDate,
+    @SerialName(value = "created") @Required val created: kotlin.String,
 
     /* Task status */
     @SerialName(value = "status") @Required val status: kotlin.String,
@@ -76,7 +76,7 @@ data class Task (
     @SerialName(value = "user") val user: User? = null,
 
     /* Task modification date */
-    @SerialName(value = "modified") val modified: java.time.LocalDate? = null,
+    @SerialName(value = "modified") val modified: kotlin.String? = null,
 
     /* Task content */
     @SerialName(value = "contents") val contents: kotlin.String? = null,

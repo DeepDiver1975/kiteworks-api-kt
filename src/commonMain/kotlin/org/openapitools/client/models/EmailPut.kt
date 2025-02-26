@@ -41,7 +41,7 @@ data class EmailPut (
 
     @SerialName(value = "secureBody") val secureBody: kotlin.Boolean? = null,
 
-    @SerialName(value = "modifiedDate") val modifiedDate: java.time.LocalDate? = null,
+    @SerialName(value = "modifiedDate") val modifiedDate: kotlin.String? = null,
 
     /* The identifier of forwarded email */
     @SerialName(value = "parentEmailId") val parentEmailId: kotlin.Int? = null
@@ -51,14 +51,14 @@ data class EmailPut (
     /**
      * Email status
      *
-     * Values: queued,draft,sent,error
+     * Values: QUEUED,DRAFT,SENT,ERROR
      */
     @Serializable
     enum class Status(val value: kotlin.String) {
-        @SerialName(value = "queued") queued("queued"),
-        @SerialName(value = "draft") draft("draft"),
-        @SerialName(value = "sent") sent("sent"),
-        @SerialName(value = "error") error("error");
+        @SerialName(value = "queued") QUEUED("queued"),
+        @SerialName(value = "draft") DRAFT("draft"),
+        @SerialName(value = "sent") SENT("sent"),
+        @SerialName(value = "error") ERROR("error");
     }
 }
 

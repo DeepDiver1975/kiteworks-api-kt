@@ -70,7 +70,7 @@ data class Kitepoint (
     @SerialName(value = "size") @Required val propertySize: kotlin.String,
 
     /* Object creation date */
-    @SerialName(value = "created") val created: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* Indicates that object is deleted */
     @SerialName(value = "deleted") val deleted: kotlin.Boolean? = null,
@@ -79,10 +79,10 @@ data class Kitepoint (
     @SerialName(value = "permDeleted") val permDeleted: kotlin.Boolean? = null,
 
     /* Object expiry date */
-    @SerialName(value = "expire") val expire: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     /* Object modification date */
-    @SerialName(value = "modified") val modified: kotlinx.datetime.Instant? = null,
+    @SerialName(value = "modified") val modified: kotlin.String? = null,
 
     @SerialName(value = "parent") val parent: Folder? = null,
 

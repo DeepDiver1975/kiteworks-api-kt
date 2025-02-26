@@ -32,10 +32,10 @@ import kotlinx.serialization.encoding.*
 data class FileInputPost (
 
     /* File creation date set from client */
-    @SerialName(value = "clientCreated") val clientCreated: java.time.LocalDate? = null,
+    @SerialName(value = "clientCreated") val clientCreated: kotlin.String? = null,
 
     /* File modify date set from client */
-    @SerialName(value = "clientModified") val clientModified: java.time.LocalDate? = null,
+    @SerialName(value = "clientModified") val clientModified: kotlin.String? = null,
 
     /* Indicates whether the file is note */
     @SerialName(value = "note") val note: kotlin.Boolean? = null

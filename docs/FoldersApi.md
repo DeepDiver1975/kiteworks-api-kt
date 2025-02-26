@@ -912,16 +912,16 @@ val parentId : kotlin.Int = 56 // kotlin.Int | Parent Comment unique identifier
 val parentIdColonIn : kotlin.Int = 56 // kotlin.Int | Parent Comment unique identifier. Search for results that contain any of specified values of this parameter.
 val userId : kotlin.String = userId_example // kotlin.String | Unique identifier of comment author
 val userIdColonIn : kotlin.String = userIdColonIn_example // kotlin.String | Unique identifier of comment author. Search for results that contain any of specified values of this parameter.
-val created : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment creation date
-val createdColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment creation date. Search for result that has this parameter value greater than specified.
-val createdColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment creation date. Search for result that has this parameter value greater or equal to the specified.
-val createdColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment creation date. Search for result that has this parameter value less than specified.
-val createdColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment creation date. Search for result that has this parameter value less or equal to the specified.
-val modified : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment modification date
-val modifiedColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment modification date. Search for result that has this parameter value greater than specified.
-val modifiedColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment modification date. Search for result that has this parameter value greater or equal to the specified.
-val modifiedColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment modification date. Search for result that has this parameter value less than specified.
-val modifiedColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Comment modification date. Search for result that has this parameter value less or equal to the specified.
+val created : kotlin.String = 2013-10-20 // kotlin.String | Comment creation date
+val createdColonGt : kotlin.String = 2013-10-20 // kotlin.String | Comment creation date. Search for result that has this parameter value greater than specified.
+val createdColonGte : kotlin.String = 2013-10-20 // kotlin.String | Comment creation date. Search for result that has this parameter value greater or equal to the specified.
+val createdColonLt : kotlin.String = 2013-10-20 // kotlin.String | Comment creation date. Search for result that has this parameter value less than specified.
+val createdColonLte : kotlin.String = 2013-10-20 // kotlin.String | Comment creation date. Search for result that has this parameter value less or equal to the specified.
+val modified : kotlin.String = 2013-10-20 // kotlin.String | Comment modification date
+val modifiedColonGt : kotlin.String = 2013-10-20 // kotlin.String | Comment modification date. Search for result that has this parameter value greater than specified.
+val modifiedColonGte : kotlin.String = 2013-10-20 // kotlin.String | Comment modification date. Search for result that has this parameter value greater or equal to the specified.
+val modifiedColonLt : kotlin.String = 2013-10-20 // kotlin.String | Comment modification date. Search for result that has this parameter value less than specified.
+val modifiedColonLte : kotlin.String = 2013-10-20 // kotlin.String | Comment modification date. Search for result that has this parameter value less or equal to the specified.
 val contentsColonContains : kotlin.String = contentsColonContains_example // kotlin.String | Comment content. Search for result that contains specified characters in this parameter.
 val orderBy : kotlin.collections.List<kotlin.String> =  // kotlin.collections.List<kotlin.String> | Sorting options
 val offset : kotlin.Int = 56 // kotlin.Int | Offset
@@ -949,16 +949,16 @@ Name | Type | Description  | Notes
  **parentIdColonIn** | **kotlin.Int**| Parent Comment unique identifier. Search for results that contain any of specified values of this parameter. | [optional]
  **userId** | **kotlin.String**| Unique identifier of comment author | [optional]
  **userIdColonIn** | **kotlin.String**| Unique identifier of comment author. Search for results that contain any of specified values of this parameter. | [optional]
- **created** | **java.time.LocalDate**| Comment creation date | [optional]
- **createdColonGt** | **java.time.LocalDate**| Comment creation date. Search for result that has this parameter value greater than specified. | [optional]
- **createdColonGte** | **java.time.LocalDate**| Comment creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **createdColonLt** | **java.time.LocalDate**| Comment creation date. Search for result that has this parameter value less than specified. | [optional]
- **createdColonLte** | **java.time.LocalDate**| Comment creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
- **modified** | **java.time.LocalDate**| Comment modification date | [optional]
- **modifiedColonGt** | **java.time.LocalDate**| Comment modification date. Search for result that has this parameter value greater than specified. | [optional]
- **modifiedColonGte** | **java.time.LocalDate**| Comment modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **modifiedColonLt** | **java.time.LocalDate**| Comment modification date. Search for result that has this parameter value less than specified. | [optional]
- **modifiedColonLte** | **java.time.LocalDate**| Comment modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **created** | **kotlin.String**| Comment creation date | [optional]
+ **createdColonGt** | **kotlin.String**| Comment creation date. Search for result that has this parameter value greater than specified. | [optional]
+ **createdColonGte** | **kotlin.String**| Comment creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **createdColonLt** | **kotlin.String**| Comment creation date. Search for result that has this parameter value less than specified. | [optional]
+ **createdColonLte** | **kotlin.String**| Comment creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **modified** | **kotlin.String**| Comment modification date | [optional]
+ **modifiedColonGt** | **kotlin.String**| Comment modification date. Search for result that has this parameter value greater than specified. | [optional]
+ **modifiedColonGte** | **kotlin.String**| Comment modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **modifiedColonLt** | **kotlin.String**| Comment modification date. Search for result that has this parameter value less than specified. | [optional]
+ **modifiedColonLte** | **kotlin.String**| Comment modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **contentsColonContains** | **kotlin.String**| Comment content. Search for result that contains specified characters in this parameter. | [optional]
  **orderBy** | [**kotlin.collections.List&lt;kotlin.String&gt;**](kotlin.String.md)| Sorting options | [optional]
  **offset** | **kotlin.Int**| Offset | [optional]
@@ -1045,16 +1045,16 @@ val name : kotlin.String = name_example // kotlin.String | Folder name
 val nameColonContains : kotlin.String = nameColonContains_example // kotlin.String | Folder name. Search for result that contains specified characters in this parameter.
 val userId : kotlin.String = userId_example // kotlin.String | Unique identifier of Object creator
 val userIdColonIn : kotlin.String = userIdColonIn_example // kotlin.String | Unique identifier of Object creator. Search for results that contain any of specified values of this parameter.
-val created : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date
-val createdColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value greater than specified.
-val createdColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value greater or equal to the specified.
-val createdColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value less than specified.
-val createdColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value less or equal to the specified.
-val modified : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date
-val modifiedColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value greater than specified.
-val modifiedColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value greater or equal to the specified.
-val modifiedColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value less than specified.
-val modifiedColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value less or equal to the specified.
+val created : kotlin.String = 2013-10-20 // kotlin.String | Object creation date
+val createdColonGt : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value greater than specified.
+val createdColonGte : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value greater or equal to the specified.
+val createdColonLt : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value less than specified.
+val createdColonLte : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value less or equal to the specified.
+val modified : kotlin.String = 2013-10-20 // kotlin.String | Object modification date
+val modifiedColonGt : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value greater than specified.
+val modifiedColonGte : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value greater or equal to the specified.
+val modifiedColonLt : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value less than specified.
+val modifiedColonLte : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value less or equal to the specified.
 val deleted : kotlin.Boolean = true // kotlin.Boolean | Indicates that object is deleted
 val expire : kotlin.Int = 56 // kotlin.Int | Expiration date
 val expireColonGt : kotlin.Int = 56 // kotlin.Int | Expiration date. Search for result that has this parameter value greater than specified.
@@ -1095,16 +1095,16 @@ Name | Type | Description  | Notes
  **nameColonContains** | **kotlin.String**| Folder name. Search for result that contains specified characters in this parameter. | [optional]
  **userId** | **kotlin.String**| Unique identifier of Object creator | [optional]
  **userIdColonIn** | **kotlin.String**| Unique identifier of Object creator. Search for results that contain any of specified values of this parameter. | [optional]
- **created** | **java.time.LocalDate**| Object creation date | [optional]
- **createdColonGt** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value greater than specified. | [optional]
- **createdColonGte** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **createdColonLt** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value less than specified. | [optional]
- **createdColonLte** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
- **modified** | **java.time.LocalDate**| Object modification date | [optional]
- **modifiedColonGt** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value greater than specified. | [optional]
- **modifiedColonGte** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **modifiedColonLt** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value less than specified. | [optional]
- **modifiedColonLte** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **created** | **kotlin.String**| Object creation date | [optional]
+ **createdColonGt** | **kotlin.String**| Object creation date. Search for result that has this parameter value greater than specified. | [optional]
+ **createdColonGte** | **kotlin.String**| Object creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **createdColonLt** | **kotlin.String**| Object creation date. Search for result that has this parameter value less than specified. | [optional]
+ **createdColonLte** | **kotlin.String**| Object creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **modified** | **kotlin.String**| Object modification date | [optional]
+ **modifiedColonGt** | **kotlin.String**| Object modification date. Search for result that has this parameter value greater than specified. | [optional]
+ **modifiedColonGte** | **kotlin.String**| Object modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **modifiedColonLt** | **kotlin.String**| Object modification date. Search for result that has this parameter value less than specified. | [optional]
+ **modifiedColonLte** | **kotlin.String**| Object modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **deleted** | **kotlin.Boolean**| Indicates that object is deleted | [optional]
  **expire** | **kotlin.Int**| Expiration date | [optional]
  **expireColonGt** | **kotlin.Int**| Expiration date. Search for result that has this parameter value greater than specified. | [optional]
@@ -1933,25 +1933,25 @@ val apiInstance = FoldersApi()
 val id : kotlin.String = id_example // kotlin.String | Folder object ID of the task to retrieve
 val assigneeId : kotlin.String = assigneeId_example // kotlin.String | Assigned User unique identifier
 val assigneeIdColonIn : kotlin.String = assigneeIdColonIn_example // kotlin.String | Assigned User unique identifier. Search for results that contain any of specified values of this parameter.
-val due : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task due date
-val dueColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task due date. Search for result that has this parameter value greater than specified.
-val dueColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task due date. Search for result that has this parameter value greater or equal to the specified.
-val dueColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task due date. Search for result that has this parameter value less than specified.
-val dueColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task due date. Search for result that has this parameter value less or equal to the specified.
+val due : kotlin.String = 2013-10-20 // kotlin.String | Task due date
+val dueColonGt : kotlin.String = 2013-10-20 // kotlin.String | Task due date. Search for result that has this parameter value greater than specified.
+val dueColonGte : kotlin.String = 2013-10-20 // kotlin.String | Task due date. Search for result that has this parameter value greater or equal to the specified.
+val dueColonLt : kotlin.String = 2013-10-20 // kotlin.String | Task due date. Search for result that has this parameter value less than specified.
+val dueColonLte : kotlin.String = 2013-10-20 // kotlin.String | Task due date. Search for result that has this parameter value less or equal to the specified.
 val parentId : kotlin.Int = 56 // kotlin.Int | Parent Comment identifier
 val parentIdColonIn : kotlin.Int = 56 // kotlin.Int | Parent Comment identifier. Search for results that contain any of specified values of this parameter.
 val userId : kotlin.String = userId_example // kotlin.String | Identifier of User who created a Task
 val userIdColonIn : kotlin.String = userIdColonIn_example // kotlin.String | Identifier of User who created a Task. Search for results that contain any of specified values of this parameter.
-val created : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task creation date
-val createdColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task creation date. Search for result that has this parameter value greater than specified.
-val createdColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task creation date. Search for result that has this parameter value greater or equal to the specified.
-val createdColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task creation date. Search for result that has this parameter value less than specified.
-val createdColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task creation date. Search for result that has this parameter value less or equal to the specified.
-val modified : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task modification date
-val modifiedColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task modification date. Search for result that has this parameter value greater than specified.
-val modifiedColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task modification date. Search for result that has this parameter value greater or equal to the specified.
-val modifiedColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task modification date. Search for result that has this parameter value less than specified.
-val modifiedColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Task modification date. Search for result that has this parameter value less or equal to the specified.
+val created : kotlin.String = 2013-10-20 // kotlin.String | Task creation date
+val createdColonGt : kotlin.String = 2013-10-20 // kotlin.String | Task creation date. Search for result that has this parameter value greater than specified.
+val createdColonGte : kotlin.String = 2013-10-20 // kotlin.String | Task creation date. Search for result that has this parameter value greater or equal to the specified.
+val createdColonLt : kotlin.String = 2013-10-20 // kotlin.String | Task creation date. Search for result that has this parameter value less than specified.
+val createdColonLte : kotlin.String = 2013-10-20 // kotlin.String | Task creation date. Search for result that has this parameter value less or equal to the specified.
+val modified : kotlin.String = 2013-10-20 // kotlin.String | Task modification date
+val modifiedColonGt : kotlin.String = 2013-10-20 // kotlin.String | Task modification date. Search for result that has this parameter value greater than specified.
+val modifiedColonGte : kotlin.String = 2013-10-20 // kotlin.String | Task modification date. Search for result that has this parameter value greater or equal to the specified.
+val modifiedColonLt : kotlin.String = 2013-10-20 // kotlin.String | Task modification date. Search for result that has this parameter value less than specified.
+val modifiedColonLte : kotlin.String = 2013-10-20 // kotlin.String | Task modification date. Search for result that has this parameter value less or equal to the specified.
 val contentsColonContains : kotlin.String = contentsColonContains_example // kotlin.String | Task content. Search for result that contains specified characters in this parameter.
 val status : kotlin.collections.List<kotlin.String> =  // kotlin.collections.List<kotlin.String> | Task status
 val deleted : kotlin.Boolean = true // kotlin.Boolean | Whether the task has been deleted
@@ -1979,25 +1979,25 @@ Name | Type | Description  | Notes
  **id** | **kotlin.String**| Folder object ID of the task to retrieve |
  **assigneeId** | **kotlin.String**| Assigned User unique identifier | [optional]
  **assigneeIdColonIn** | **kotlin.String**| Assigned User unique identifier. Search for results that contain any of specified values of this parameter. | [optional]
- **due** | **java.time.LocalDate**| Task due date | [optional]
- **dueColonGt** | **java.time.LocalDate**| Task due date. Search for result that has this parameter value greater than specified. | [optional]
- **dueColonGte** | **java.time.LocalDate**| Task due date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **dueColonLt** | **java.time.LocalDate**| Task due date. Search for result that has this parameter value less than specified. | [optional]
- **dueColonLte** | **java.time.LocalDate**| Task due date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **due** | **kotlin.String**| Task due date | [optional]
+ **dueColonGt** | **kotlin.String**| Task due date. Search for result that has this parameter value greater than specified. | [optional]
+ **dueColonGte** | **kotlin.String**| Task due date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **dueColonLt** | **kotlin.String**| Task due date. Search for result that has this parameter value less than specified. | [optional]
+ **dueColonLte** | **kotlin.String**| Task due date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **parentId** | **kotlin.Int**| Parent Comment identifier | [optional]
  **parentIdColonIn** | **kotlin.Int**| Parent Comment identifier. Search for results that contain any of specified values of this parameter. | [optional]
  **userId** | **kotlin.String**| Identifier of User who created a Task | [optional]
  **userIdColonIn** | **kotlin.String**| Identifier of User who created a Task. Search for results that contain any of specified values of this parameter. | [optional]
- **created** | **java.time.LocalDate**| Task creation date | [optional]
- **createdColonGt** | **java.time.LocalDate**| Task creation date. Search for result that has this parameter value greater than specified. | [optional]
- **createdColonGte** | **java.time.LocalDate**| Task creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **createdColonLt** | **java.time.LocalDate**| Task creation date. Search for result that has this parameter value less than specified. | [optional]
- **createdColonLte** | **java.time.LocalDate**| Task creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
- **modified** | **java.time.LocalDate**| Task modification date | [optional]
- **modifiedColonGt** | **java.time.LocalDate**| Task modification date. Search for result that has this parameter value greater than specified. | [optional]
- **modifiedColonGte** | **java.time.LocalDate**| Task modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **modifiedColonLt** | **java.time.LocalDate**| Task modification date. Search for result that has this parameter value less than specified. | [optional]
- **modifiedColonLte** | **java.time.LocalDate**| Task modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **created** | **kotlin.String**| Task creation date | [optional]
+ **createdColonGt** | **kotlin.String**| Task creation date. Search for result that has this parameter value greater than specified. | [optional]
+ **createdColonGte** | **kotlin.String**| Task creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **createdColonLt** | **kotlin.String**| Task creation date. Search for result that has this parameter value less than specified. | [optional]
+ **createdColonLte** | **kotlin.String**| Task creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **modified** | **kotlin.String**| Task modification date | [optional]
+ **modifiedColonGt** | **kotlin.String**| Task modification date. Search for result that has this parameter value greater than specified. | [optional]
+ **modifiedColonGte** | **kotlin.String**| Task modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **modifiedColonLt** | **kotlin.String**| Task modification date. Search for result that has this parameter value less than specified. | [optional]
+ **modifiedColonLte** | **kotlin.String**| Task modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **contentsColonContains** | **kotlin.String**| Task content. Search for result that contains specified characters in this parameter. | [optional]
  **status** | [**kotlin.collections.List&lt;kotlin.String&gt;**](kotlin.String.md)| Task status | [optional]
  **deleted** | **kotlin.Boolean**| Whether the task has been deleted | [optional]
@@ -2188,16 +2188,16 @@ val name : kotlin.String = name_example // kotlin.String | Folder name
 val nameColonContains : kotlin.String = nameColonContains_example // kotlin.String | Folder name. Search for result that contains specified characters in this parameter.
 val userId : kotlin.String = userId_example // kotlin.String | Unique identifier of Object creator
 val userIdColonIn : kotlin.String = userIdColonIn_example // kotlin.String | Unique identifier of Object creator. Search for results that contain any of specified values of this parameter.
-val created : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date
-val createdColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value greater than specified.
-val createdColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value greater or equal to the specified.
-val createdColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value less than specified.
-val createdColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object creation date. Search for result that has this parameter value less or equal to the specified.
-val modified : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date
-val modifiedColonGt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value greater than specified.
-val modifiedColonGte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value greater or equal to the specified.
-val modifiedColonLt : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value less than specified.
-val modifiedColonLte : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Object modification date. Search for result that has this parameter value less or equal to the specified.
+val created : kotlin.String = 2013-10-20 // kotlin.String | Object creation date
+val createdColonGt : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value greater than specified.
+val createdColonGte : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value greater or equal to the specified.
+val createdColonLt : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value less than specified.
+val createdColonLte : kotlin.String = 2013-10-20 // kotlin.String | Object creation date. Search for result that has this parameter value less or equal to the specified.
+val modified : kotlin.String = 2013-10-20 // kotlin.String | Object modification date
+val modifiedColonGt : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value greater than specified.
+val modifiedColonGte : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value greater or equal to the specified.
+val modifiedColonLt : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value less than specified.
+val modifiedColonLte : kotlin.String = 2013-10-20 // kotlin.String | Object modification date. Search for result that has this parameter value less or equal to the specified.
 val deleted : kotlin.Boolean = true // kotlin.Boolean | Indicates that object is deleted
 val expire : kotlin.Int = 56 // kotlin.Int | Expiration date
 val expireColonGt : kotlin.Int = 56 // kotlin.Int | Expiration date. Search for result that has this parameter value greater than specified.
@@ -2237,16 +2237,16 @@ Name | Type | Description  | Notes
  **nameColonContains** | **kotlin.String**| Folder name. Search for result that contains specified characters in this parameter. | [optional]
  **userId** | **kotlin.String**| Unique identifier of Object creator | [optional]
  **userIdColonIn** | **kotlin.String**| Unique identifier of Object creator. Search for results that contain any of specified values of this parameter. | [optional]
- **created** | **java.time.LocalDate**| Object creation date | [optional]
- **createdColonGt** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value greater than specified. | [optional]
- **createdColonGte** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **createdColonLt** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value less than specified. | [optional]
- **createdColonLte** | **java.time.LocalDate**| Object creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
- **modified** | **java.time.LocalDate**| Object modification date | [optional]
- **modifiedColonGt** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value greater than specified. | [optional]
- **modifiedColonGte** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
- **modifiedColonLt** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value less than specified. | [optional]
- **modifiedColonLte** | **java.time.LocalDate**| Object modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **created** | **kotlin.String**| Object creation date | [optional]
+ **createdColonGt** | **kotlin.String**| Object creation date. Search for result that has this parameter value greater than specified. | [optional]
+ **createdColonGte** | **kotlin.String**| Object creation date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **createdColonLt** | **kotlin.String**| Object creation date. Search for result that has this parameter value less than specified. | [optional]
+ **createdColonLte** | **kotlin.String**| Object creation date. Search for result that has this parameter value less or equal to the specified. | [optional]
+ **modified** | **kotlin.String**| Object modification date | [optional]
+ **modifiedColonGt** | **kotlin.String**| Object modification date. Search for result that has this parameter value greater than specified. | [optional]
+ **modifiedColonGte** | **kotlin.String**| Object modification date. Search for result that has this parameter value greater or equal to the specified. | [optional]
+ **modifiedColonLt** | **kotlin.String**| Object modification date. Search for result that has this parameter value less than specified. | [optional]
+ **modifiedColonLte** | **kotlin.String**| Object modification date. Search for result that has this parameter value less or equal to the specified. | [optional]
  **deleted** | **kotlin.Boolean**| Indicates that object is deleted | [optional]
  **expire** | **kotlin.Int**| Expiration date | [optional]
  **expireColonGt** | **kotlin.Int**| Expiration date. Search for result that has this parameter value greater than specified. | [optional]

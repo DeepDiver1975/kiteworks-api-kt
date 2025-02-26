@@ -300,7 +300,7 @@ open class DliApi : ApiClient {
      * @return kotlin.collections.List<ActivityAdmin>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restDliFilesFileIdUsersUserIdActivitiesGet(fileId: kotlin.String, userId: kotlin.String, noDayBack: kotlin.Int? = null, startDate: java.time.LocalDate? = null, endDate: java.time.LocalDate? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<ActivityAdmin>> {
+    open suspend fun restDliFilesFileIdUsersUserIdActivitiesGet(fileId: kotlin.String, userId: kotlin.String, noDayBack: kotlin.Int? = null, startDate: kotlin.String? = null, endDate: kotlin.String? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<ActivityAdmin>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -638,7 +638,7 @@ open class DliApi : ApiClient {
      * @return kotlin.collections.List<ActivityAdmin>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restDliFoldersFolderIdUsersUserIdActivitiesGet(folderId: kotlin.String, userId: kotlin.String, noDayBack: kotlin.Int? = null, startDate: java.time.LocalDate? = null, endDate: java.time.LocalDate? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<ActivityAdmin>> {
+    open suspend fun restDliFoldersFolderIdUsersUserIdActivitiesGet(folderId: kotlin.String, userId: kotlin.String, noDayBack: kotlin.Int? = null, startDate: kotlin.String? = null, endDate: kotlin.String? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<ActivityAdmin>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -853,7 +853,7 @@ open class DliApi : ApiClient {
      * @return kotlin.collections.List<ActivityAdmin>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restDliUsersIdActivitiesGet(id: kotlin.String, noDayBack: kotlin.Int? = null, startDate: java.time.LocalDate? = null, endDate: java.time.LocalDate? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<ActivityAdmin>> {
+    open suspend fun restDliUsersIdActivitiesGet(id: kotlin.String, noDayBack: kotlin.Int? = null, startDate: kotlin.String? = null, endDate: kotlin.String? = null, filter: kotlin.String? = null, search: kotlin.String? = null, type: kotlin.String? = null, transactionId: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<ActivityAdmin>> {
 
         val localVariableAuthNames = listOf<String>()
 
@@ -940,7 +940,7 @@ open class DliApi : ApiClient {
      * @return kotlin.collections.List<Email>
      */
     @Suppress("UNCHECKED_CAST")
-    open suspend fun restDliUsersIdMailGet(id: kotlin.String, senderId: kotlin.String? = null, senderIdColonIn: kotlin.String? = null, isRecipient: kotlin.Boolean? = null, read: kotlin.Boolean? = null, date: java.time.LocalDate? = null, dateColonGt: java.time.LocalDate? = null, dateColonGte: java.time.LocalDate? = null, dateColonLt: java.time.LocalDate? = null, dateColonLte: java.time.LocalDate? = null, modifiedDate: java.time.LocalDate? = null, modifiedDateColonGt: java.time.LocalDate? = null, modifiedDateColonGte: java.time.LocalDate? = null, modifiedDateColonLt: java.time.LocalDate? = null, modifiedDateColonLte: java.time.LocalDate? = null, deleted: kotlin.Boolean? = null, emailPackageId: kotlin.String? = null, emailPackageIdColonIn: kotlin.String? = null, templateId: kotlin.Int? = null, templateIdColonIn: kotlin.Int? = null, status: kotlin.collections.List<kotlin.String>? = null, isPreview: kotlin.Boolean? = null, isUserSent: kotlin.Boolean? = null, bucket: kotlin.String? = null, returnCustomWebForm: kotlin.Boolean? = null, customWebFormOnly: kotlin.Boolean? = null, webFormId: kotlin.String? = null, webFormIdColonContains: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, locateId: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Email>> {
+    open suspend fun restDliUsersIdMailGet(id: kotlin.String, senderId: kotlin.String? = null, senderIdColonIn: kotlin.String? = null, isRecipient: kotlin.Boolean? = null, read: kotlin.Boolean? = null, date: kotlin.String? = null, dateColonGt: kotlin.String? = null, dateColonGte: kotlin.String? = null, dateColonLt: kotlin.String? = null, dateColonLte: kotlin.String? = null, modifiedDate: kotlin.String? = null, modifiedDateColonGt: kotlin.String? = null, modifiedDateColonGte: kotlin.String? = null, modifiedDateColonLt: kotlin.String? = null, modifiedDateColonLte: kotlin.String? = null, deleted: kotlin.Boolean? = null, emailPackageId: kotlin.String? = null, emailPackageIdColonIn: kotlin.String? = null, templateId: kotlin.Int? = null, templateIdColonIn: kotlin.Int? = null, status: kotlin.collections.List<kotlin.String>? = null, isPreview: kotlin.Boolean? = null, isUserSent: kotlin.Boolean? = null, bucket: kotlin.String? = null, returnCustomWebForm: kotlin.Boolean? = null, customWebFormOnly: kotlin.Boolean? = null, webFormId: kotlin.String? = null, webFormIdColonContains: kotlin.String? = null, orderBy: kotlin.collections.List<kotlin.String>? = null, offset: kotlin.Int? = null, limit: kotlin.Int? = null, locateId: kotlin.Int? = null, with: kotlin.String? = null, mode: kotlin.String? = null): HttpResponse<kotlin.collections.List<Email>> {
 
         val localVariableAuthNames = listOf<String>()
 

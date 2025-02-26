@@ -12,11 +12,11 @@ Name | Type | Description | Notes
 **type** | **kotlin.String** |  | 
 **locked** | **kotlin.Int** | Unique identifier of User who locked a File | 
 **wopiapp** | **kotlin.Boolean** | WOPI info for iOS app | 
-**created** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) | Object creation date |  [optional]
+**created** | **kotlin.String** | Object creation date |  [optional]
 **deleted** | **kotlin.Boolean** | Indicates that object is deleted |  [optional]
 **permDeleted** | **kotlin.Boolean** | Indicates that object is permanently deleted |  [optional]
-**expire** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) | Object expiry date |  [optional]
-**modified** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) | Object modification date |  [optional]
+**expire** | **kotlin.String** | Object expiry date |  [optional]
+**modified** | **kotlin.String** | Object modification date |  [optional]
 **parent** | [**Folder**](Folder.md) |  |  [optional]
 **permalink** | **kotlin.String** | Object permalink |  [optional]
 **creator** | [**UserBasicInfo**](UserBasicInfo.md) |  |  [optional]
@@ -28,8 +28,8 @@ Name | Type | Description | Notes
 **mime** | **kotlin.String** | File MIME type |  [optional]
 **fingerprint** | **kotlin.String** | File content fingerprint |  [optional]
 **lockUser** | [**User**](User.md) |  |  [optional]
-**clientCreated** | [**java.time.LocalDate**](java.time.LocalDate.md) | Original created time of the file |  [optional]
-**clientModified** | [**java.time.LocalDate**](java.time.LocalDate.md) | Original Modified time of the file |  [optional]
+**clientCreated** | **kotlin.String** | Original created time of the file |  [optional]
+**clientModified** | **kotlin.String** | Original Modified time of the file |  [optional]
 **members** | [**kotlin.collections.List&lt;Member&gt;**](Member.md) | File members list (Explicit field. May be retrieved only if mentioned in \&quot;with\&quot; parameter) |  [optional]
 **overriddenExpire** | **kotlin.Boolean** | Indicates that file expire is overridden |  [optional]
 **originalFileId** | **kotlin.String** | File identifier from which this file was copied from |  [optional]

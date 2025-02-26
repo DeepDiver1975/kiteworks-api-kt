@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
-    kotlin("multiplatform") version "1.9.20" // kotlin_version
-    kotlin("plugin.serialization") version "1.9.20" // kotlin_version
+    kotlin("multiplatform") version "2.0.0" // kotlin_version
+    kotlin("plugin.serialization") version "2.0.0" // kotlin_version
 }
 
 group = "org.openapitools"
@@ -38,7 +38,6 @@ kotlin {
                 api("io.ktor:ktor-client-content-negotiation:$ktor_version")
                 api("io.ktor:ktor-serialization-kotlinx-json:$ktor_version")
 
-                api("org.jetbrains.kotlinx:kotlinx-datetime:0.4.1")
             }
         }
 

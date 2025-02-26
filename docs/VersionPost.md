@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **archived** | **kotlin.Int** | Idicates whether this version has been archived |  [optional]
 **objectId** | **kotlin.Int** | The object ID |  [optional]
 **location** | **kotlin.Int** | The file location of this version |  [optional]
-**created** | [**java.time.LocalDate**](java.time.LocalDate.md) | The date this version is created |  [optional]
+**created** | **kotlin.String** | The date this version is created |  [optional]
 **mime** | **kotlin.String** | The file mime type |  [optional]
 **backend** | **kotlin.String** | Storage backend type s3, atmos, or acfs used to store the file |  [optional]
 **file** | [**org.openapitools.client.infrastructure.OctetByteArray**](org.openapitools.client.infrastructure.OctetByteArray.md) |  |  [optional]

@@ -37,7 +37,7 @@ data class MailLinkPost (
     @SerialName(value = "ref") val ref: kotlin.String? = null,
 
     /* Expiration date */
-    @SerialName(value = "expire") val expire: java.time.LocalDate? = null,
+    @SerialName(value = "expire") val expire: kotlin.String? = null,
 
     /* Unique identifier of entity type.      *     1 = object,      *     2 = email_package,      *     3 = verification_code,      *     4 = email_preview_package,      *     5 = file_request,      *     6 = add_file      *     7 = password_reset,      *     8 = gdrive_oauth,      *     9 = connector_oauth,      *     10 = comment,      *     11 = task,      *     12 = mobile_sync,      *     13 = password_set,      *     14 = event,      *     15 = mail */
     @SerialName(value = "entityTypeId") val entityTypeId: kotlin.String? = null,

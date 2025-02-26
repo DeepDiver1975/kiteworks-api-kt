@@ -61,13 +61,13 @@ data class BaseChunkUploadRequest (
     /**
      * The compression mode. Available option \"NORMAL\", \"GZIP\" and \"ZLIB\"
      *
-     * Values: nORMAL,gZIP,zLIB
+     * Values: NORMAL,GZIP,ZLIB
      */
     @Serializable
     enum class CompressionMode(val value: kotlin.String) {
-        @SerialName(value = "NORMAL") nORMAL("NORMAL"),
-        @SerialName(value = "GZIP") gZIP("GZIP"),
-        @SerialName(value = "ZLIB") zLIB("ZLIB");
+        @SerialName(value = "NORMAL") NORMAL("NORMAL"),
+        @SerialName(value = "GZIP") GZIP("GZIP"),
+        @SerialName(value = "ZLIB") ZLIB("ZLIB");
     }
 }
 

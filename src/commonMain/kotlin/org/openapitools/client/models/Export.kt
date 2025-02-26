@@ -45,10 +45,10 @@ data class Export (
     @SerialName(value = "id") val id: kotlin.String? = null,
 
     /* Start date */
-    @SerialName(value = "startDate") val startDate: java.time.LocalDate? = null,
+    @SerialName(value = "startDate") val startDate: kotlin.String? = null,
 
     /* End date */
-    @SerialName(value = "endDate") val endDate: java.time.LocalDate? = null,
+    @SerialName(value = "endDate") val endDate: kotlin.String? = null,
 
     /* The status generating the export data */
     @SerialName(value = "status") val status: kotlin.String? = null,
@@ -60,7 +60,7 @@ data class Export (
     @SerialName(value = "type") val type: kotlin.String? = null,
 
     /* The date the report is generated */
-    @SerialName(value = "generatedDate") val generatedDate: java.time.LocalDate? = null,
+    @SerialName(value = "generatedDate") val generatedDate: kotlin.String? = null,
 
     /* The generated report filename */
     @SerialName(value = "fileName") val fileName: kotlin.String? = null,

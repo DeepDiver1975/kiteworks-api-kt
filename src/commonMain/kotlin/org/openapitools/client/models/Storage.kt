@@ -31,7 +31,7 @@ import kotlinx.serialization.encoding.*
 data class Storage (
 
     /* Date */
-    @SerialName(value = "dateTime") val dateTime: java.time.LocalDate? = null,
+    @SerialName(value = "dateTime") val dateTime: kotlin.String? = null,
 
     /* Storage Usage */
     @SerialName(value = "usage") val usage: kotlin.Int? = null

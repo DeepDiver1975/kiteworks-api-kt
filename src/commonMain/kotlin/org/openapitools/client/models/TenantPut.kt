@@ -37,12 +37,12 @@ data class TenantPut (
     /**
      * Status\\State of Tenant
      *
-     * Values: run,`suspend`
+     * Values: RUN,SUSPEND
      */
     @Serializable
     enum class State(val value: kotlin.String) {
-        @SerialName(value = "run") run("run"),
-        @SerialName(value = "suspend") `suspend`("suspend");
+        @SerialName(value = "run") RUN("run"),
+        @SerialName(value = "suspend") SUSPEND("suspend");
     }
 }
 

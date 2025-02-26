@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **parentId** | **kotlin.String** | Parent ID of Source | 
 **type** | **kotlin.String** | Type of Object | 
 **wopiapp** | **kotlin.Boolean** | WOPI info for iOS app | 
-**created** | [**java.time.LocalDate**](java.time.LocalDate.md) | Time of Source created in UTC timestamp |  [optional]
-**modified** | [**java.time.LocalDate**](java.time.LocalDate.md) | Time of Source modified in UTC timestamp |  [optional]
+**created** | **kotlin.String** | Time of Source created in UTC timestamp |  [optional]
+**modified** | **kotlin.String** | Time of Source modified in UTC timestamp |  [optional]
 **status** | **kotlin.String** | Status of the source |  [optional]
 **deleted** | **kotlin.Boolean** | Whether the file is deleted |  [optional]
 **path** | **kotlin.String** | Shows object full path |  [optional]

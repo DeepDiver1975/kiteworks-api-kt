@@ -210,82 +210,82 @@ open class ScimApi : ApiClient {
     enum class ExcludedAttributesRestScimUsersGet(val value: kotlin.String) {
         
         @SerialName(value = "meta")
-        meta("meta"),
+        META("meta"),
         
         @SerialName(value = "userName")
-        userName("userName"),
+        USER_NAME("userName"),
         
         @SerialName(value = "displayName")
-        displayName("displayName"),
+        DISPLAY_NAME("displayName"),
         
         @SerialName(value = "userType")
-        userType("userType"),
+        USER_TYPE("userType"),
         
         @SerialName(value = "preferredLanguage")
-        preferredLanguage("preferredLanguage"),
+        PREFERRED_LANGUAGE("preferredLanguage"),
         
         @SerialName(value = "active")
-        active("active"),
+        ACTIVE("active"),
         
         @SerialName(value = "emails")
-        emails("emails"),
+        EMAILS("emails"),
         
         @SerialName(value = "phoneNumbers")
-        phoneNumbers("phoneNumbers"),
+        PHONE_NUMBERS("phoneNumbers"),
         
         @SerialName(value = "photos")
-        photos("photos"),
+        PHOTOS("photos"),
         
         @SerialName(value = "roles")
-        roles("roles"),
+        ROLES("roles"),
         
         @SerialName(value = "meta.resourceType")
-        metaPeriodResourceType("meta.resourceType"),
+        META_PERIOD_RESOURCE_TYPE("meta.resourceType"),
         
         @SerialName(value = "meta.created")
-        metaPeriodCreated("meta.created"),
+        META_PERIOD_CREATED("meta.created"),
         
         @SerialName(value = "meta.location")
-        metaPeriodLocation("meta.location"),
+        META_PERIOD_LOCATION("meta.location"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMeta("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserName("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_NAME("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:displayName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonDisplayName("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_DISPLAY_NAME("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserType("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPreferredLanguage("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PREFERRED_LANGUAGE("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:active")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonActive("urn:ietf:params:scim:schemas:core:2.0:User:active"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ACTIVE("urn:ietf:params:scim:schemas:core:2.0:User:active"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:emails")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonEmails("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_EMAILS("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhoneNumbers("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHONE_NUMBERS("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:photos")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhotos("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHOTOS("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:roles")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonRoles("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ROLES("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodResourceType("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_RESOURCE_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.created")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodCreated("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_CREATED("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodLocation("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_LOCATION("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
         
     }
 
@@ -297,88 +297,88 @@ open class ScimApi : ApiClient {
     enum class AttributesRestScimUsersGet(val value: kotlin.String) {
         
         @SerialName(value = "id")
-        id("id"),
+        ID("id"),
         
         @SerialName(value = "meta")
-        meta("meta"),
+        META("meta"),
         
         @SerialName(value = "userName")
-        userName("userName"),
+        USER_NAME("userName"),
         
         @SerialName(value = "displayName")
-        displayName("displayName"),
+        DISPLAY_NAME("displayName"),
         
         @SerialName(value = "userType")
-        userType("userType"),
+        USER_TYPE("userType"),
         
         @SerialName(value = "preferredLanguage")
-        preferredLanguage("preferredLanguage"),
+        PREFERRED_LANGUAGE("preferredLanguage"),
         
         @SerialName(value = "active")
-        active("active"),
+        ACTIVE("active"),
         
         @SerialName(value = "emails")
-        emails("emails"),
+        EMAILS("emails"),
         
         @SerialName(value = "phoneNumbers")
-        phoneNumbers("phoneNumbers"),
+        PHONE_NUMBERS("phoneNumbers"),
         
         @SerialName(value = "photos")
-        photos("photos"),
+        PHOTOS("photos"),
         
         @SerialName(value = "roles")
-        roles("roles"),
+        ROLES("roles"),
         
         @SerialName(value = "meta.resourceType")
-        metaPeriodResourceType("meta.resourceType"),
+        META_PERIOD_RESOURCE_TYPE("meta.resourceType"),
         
         @SerialName(value = "meta.created")
-        metaPeriodCreated("meta.created"),
+        META_PERIOD_CREATED("meta.created"),
         
         @SerialName(value = "meta.location")
-        metaPeriodLocation("meta.location"),
+        META_PERIOD_LOCATION("meta.location"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:id")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonId("urn:ietf:params:scim:schemas:core:2.0:User:id"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ID("urn:ietf:params:scim:schemas:core:2.0:User:id"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMeta("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserName("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_NAME("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:displayName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonDisplayName("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_DISPLAY_NAME("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserType("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPreferredLanguage("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PREFERRED_LANGUAGE("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:active")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonActive("urn:ietf:params:scim:schemas:core:2.0:User:active"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ACTIVE("urn:ietf:params:scim:schemas:core:2.0:User:active"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:emails")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonEmails("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_EMAILS("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhoneNumbers("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHONE_NUMBERS("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:photos")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhotos("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHOTOS("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:roles")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonRoles("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ROLES("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodResourceType("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_RESOURCE_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.created")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodCreated("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_CREATED("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodLocation("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_LOCATION("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
         
     }
 
@@ -478,88 +478,88 @@ open class ScimApi : ApiClient {
     enum class AttributesRestScimUsersIdGet(val value: kotlin.String) {
         
         @SerialName(value = "id")
-        id("id"),
+        ID("id"),
         
         @SerialName(value = "meta")
-        meta("meta"),
+        META("meta"),
         
         @SerialName(value = "userName")
-        userName("userName"),
+        USER_NAME("userName"),
         
         @SerialName(value = "displayName")
-        displayName("displayName"),
+        DISPLAY_NAME("displayName"),
         
         @SerialName(value = "userType")
-        userType("userType"),
+        USER_TYPE("userType"),
         
         @SerialName(value = "preferredLanguage")
-        preferredLanguage("preferredLanguage"),
+        PREFERRED_LANGUAGE("preferredLanguage"),
         
         @SerialName(value = "active")
-        active("active"),
+        ACTIVE("active"),
         
         @SerialName(value = "emails")
-        emails("emails"),
+        EMAILS("emails"),
         
         @SerialName(value = "phoneNumbers")
-        phoneNumbers("phoneNumbers"),
+        PHONE_NUMBERS("phoneNumbers"),
         
         @SerialName(value = "photos")
-        photos("photos"),
+        PHOTOS("photos"),
         
         @SerialName(value = "roles")
-        roles("roles"),
+        ROLES("roles"),
         
         @SerialName(value = "meta.resourceType")
-        metaPeriodResourceType("meta.resourceType"),
+        META_PERIOD_RESOURCE_TYPE("meta.resourceType"),
         
         @SerialName(value = "meta.created")
-        metaPeriodCreated("meta.created"),
+        META_PERIOD_CREATED("meta.created"),
         
         @SerialName(value = "meta.location")
-        metaPeriodLocation("meta.location"),
+        META_PERIOD_LOCATION("meta.location"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:id")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonId("urn:ietf:params:scim:schemas:core:2.0:User:id"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ID("urn:ietf:params:scim:schemas:core:2.0:User:id"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMeta("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserName("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_NAME("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:displayName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonDisplayName("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_DISPLAY_NAME("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserType("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPreferredLanguage("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PREFERRED_LANGUAGE("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:active")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonActive("urn:ietf:params:scim:schemas:core:2.0:User:active"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ACTIVE("urn:ietf:params:scim:schemas:core:2.0:User:active"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:emails")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonEmails("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_EMAILS("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhoneNumbers("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHONE_NUMBERS("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:photos")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhotos("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHOTOS("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:roles")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonRoles("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ROLES("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodResourceType("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_RESOURCE_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.created")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodCreated("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_CREATED("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodLocation("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_LOCATION("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
         
     }
 
@@ -571,82 +571,82 @@ open class ScimApi : ApiClient {
     enum class ExcludedAttributesRestScimUsersIdGet(val value: kotlin.String) {
         
         @SerialName(value = "meta")
-        meta("meta"),
+        META("meta"),
         
         @SerialName(value = "userName")
-        userName("userName"),
+        USER_NAME("userName"),
         
         @SerialName(value = "displayName")
-        displayName("displayName"),
+        DISPLAY_NAME("displayName"),
         
         @SerialName(value = "userType")
-        userType("userType"),
+        USER_TYPE("userType"),
         
         @SerialName(value = "preferredLanguage")
-        preferredLanguage("preferredLanguage"),
+        PREFERRED_LANGUAGE("preferredLanguage"),
         
         @SerialName(value = "active")
-        active("active"),
+        ACTIVE("active"),
         
         @SerialName(value = "emails")
-        emails("emails"),
+        EMAILS("emails"),
         
         @SerialName(value = "phoneNumbers")
-        phoneNumbers("phoneNumbers"),
+        PHONE_NUMBERS("phoneNumbers"),
         
         @SerialName(value = "photos")
-        photos("photos"),
+        PHOTOS("photos"),
         
         @SerialName(value = "roles")
-        roles("roles"),
+        ROLES("roles"),
         
         @SerialName(value = "meta.resourceType")
-        metaPeriodResourceType("meta.resourceType"),
+        META_PERIOD_RESOURCE_TYPE("meta.resourceType"),
         
         @SerialName(value = "meta.created")
-        metaPeriodCreated("meta.created"),
+        META_PERIOD_CREATED("meta.created"),
         
         @SerialName(value = "meta.location")
-        metaPeriodLocation("meta.location"),
+        META_PERIOD_LOCATION("meta.location"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMeta("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserName("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_NAME("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:displayName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonDisplayName("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_DISPLAY_NAME("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserType("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPreferredLanguage("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PREFERRED_LANGUAGE("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:active")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonActive("urn:ietf:params:scim:schemas:core:2.0:User:active"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ACTIVE("urn:ietf:params:scim:schemas:core:2.0:User:active"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:emails")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonEmails("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_EMAILS("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhoneNumbers("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHONE_NUMBERS("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:photos")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhotos("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHOTOS("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:roles")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonRoles("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ROLES("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodResourceType("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_RESOURCE_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.created")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodCreated("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_CREATED("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodLocation("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_LOCATION("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
         
     }
 
@@ -729,88 +729,88 @@ open class ScimApi : ApiClient {
     enum class AttributesRestScimUsersPost(val value: kotlin.String) {
         
         @SerialName(value = "id")
-        id("id"),
+        ID("id"),
         
         @SerialName(value = "meta")
-        meta("meta"),
+        META("meta"),
         
         @SerialName(value = "userName")
-        userName("userName"),
+        USER_NAME("userName"),
         
         @SerialName(value = "displayName")
-        displayName("displayName"),
+        DISPLAY_NAME("displayName"),
         
         @SerialName(value = "userType")
-        userType("userType"),
+        USER_TYPE("userType"),
         
         @SerialName(value = "preferredLanguage")
-        preferredLanguage("preferredLanguage"),
+        PREFERRED_LANGUAGE("preferredLanguage"),
         
         @SerialName(value = "active")
-        active("active"),
+        ACTIVE("active"),
         
         @SerialName(value = "emails")
-        emails("emails"),
+        EMAILS("emails"),
         
         @SerialName(value = "phoneNumbers")
-        phoneNumbers("phoneNumbers"),
+        PHONE_NUMBERS("phoneNumbers"),
         
         @SerialName(value = "photos")
-        photos("photos"),
+        PHOTOS("photos"),
         
         @SerialName(value = "roles")
-        roles("roles"),
+        ROLES("roles"),
         
         @SerialName(value = "meta.resourceType")
-        metaPeriodResourceType("meta.resourceType"),
+        META_PERIOD_RESOURCE_TYPE("meta.resourceType"),
         
         @SerialName(value = "meta.created")
-        metaPeriodCreated("meta.created"),
+        META_PERIOD_CREATED("meta.created"),
         
         @SerialName(value = "meta.location")
-        metaPeriodLocation("meta.location"),
+        META_PERIOD_LOCATION("meta.location"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:id")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonId("urn:ietf:params:scim:schemas:core:2.0:User:id"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ID("urn:ietf:params:scim:schemas:core:2.0:User:id"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMeta("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserName("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_NAME("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:displayName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonDisplayName("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_DISPLAY_NAME("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserType("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPreferredLanguage("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PREFERRED_LANGUAGE("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:active")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonActive("urn:ietf:params:scim:schemas:core:2.0:User:active"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ACTIVE("urn:ietf:params:scim:schemas:core:2.0:User:active"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:emails")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonEmails("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_EMAILS("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhoneNumbers("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHONE_NUMBERS("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:photos")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhotos("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHOTOS("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:roles")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonRoles("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ROLES("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodResourceType("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_RESOURCE_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.created")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodCreated("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_CREATED("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodLocation("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_LOCATION("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
         
     }
 
@@ -822,82 +822,82 @@ open class ScimApi : ApiClient {
     enum class ExcludedAttributesRestScimUsersPost(val value: kotlin.String) {
         
         @SerialName(value = "meta")
-        meta("meta"),
+        META("meta"),
         
         @SerialName(value = "userName")
-        userName("userName"),
+        USER_NAME("userName"),
         
         @SerialName(value = "displayName")
-        displayName("displayName"),
+        DISPLAY_NAME("displayName"),
         
         @SerialName(value = "userType")
-        userType("userType"),
+        USER_TYPE("userType"),
         
         @SerialName(value = "preferredLanguage")
-        preferredLanguage("preferredLanguage"),
+        PREFERRED_LANGUAGE("preferredLanguage"),
         
         @SerialName(value = "active")
-        active("active"),
+        ACTIVE("active"),
         
         @SerialName(value = "emails")
-        emails("emails"),
+        EMAILS("emails"),
         
         @SerialName(value = "phoneNumbers")
-        phoneNumbers("phoneNumbers"),
+        PHONE_NUMBERS("phoneNumbers"),
         
         @SerialName(value = "photos")
-        photos("photos"),
+        PHOTOS("photos"),
         
         @SerialName(value = "roles")
-        roles("roles"),
+        ROLES("roles"),
         
         @SerialName(value = "meta.resourceType")
-        metaPeriodResourceType("meta.resourceType"),
+        META_PERIOD_RESOURCE_TYPE("meta.resourceType"),
         
         @SerialName(value = "meta.created")
-        metaPeriodCreated("meta.created"),
+        META_PERIOD_CREATED("meta.created"),
         
         @SerialName(value = "meta.location")
-        metaPeriodLocation("meta.location"),
+        META_PERIOD_LOCATION("meta.location"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMeta("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META("urn:ietf:params:scim:schemas:core:2.0:User:meta"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserName("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_NAME("urn:ietf:params:scim:schemas:core:2.0:User:userName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:displayName")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonDisplayName("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_DISPLAY_NAME("urn:ietf:params:scim:schemas:core:2.0:User:displayName"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:userType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonUserType("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_USER_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:userType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPreferredLanguage("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PREFERRED_LANGUAGE("urn:ietf:params:scim:schemas:core:2.0:User:preferredLanguage"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:active")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonActive("urn:ietf:params:scim:schemas:core:2.0:User:active"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ACTIVE("urn:ietf:params:scim:schemas:core:2.0:User:active"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:emails")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonEmails("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_EMAILS("urn:ietf:params:scim:schemas:core:2.0:User:emails"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhoneNumbers("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHONE_NUMBERS("urn:ietf:params:scim:schemas:core:2.0:User:phoneNumbers"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:photos")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonPhotos("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_PHOTOS("urn:ietf:params:scim:schemas:core:2.0:User:photos"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:roles")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonRoles("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_ROLES("urn:ietf:params:scim:schemas:core:2.0:User:roles"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodResourceType("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_RESOURCE_TYPE("urn:ietf:params:scim:schemas:core:2.0:User:meta.resourceType"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.created")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodCreated("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_CREATED("urn:ietf:params:scim:schemas:core:2.0:User:meta.created"),
         
         @SerialName(value = "urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
-        urnColonIetfColonParamsColonScimColonSchemasColonCoreColon2Period0ColonUserColonMetaPeriodLocation("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
+        URN_COLON_IETF_COLON_PARAMS_COLON_SCIM_COLON_SCHEMAS_COLON_CORE_COLON2_PERIOD0_COLON_USER_COLON_META_PERIOD_LOCATION("urn:ietf:params:scim:schemas:core:2.0:User:meta.location")
         
     }
 

@@ -23,6 +23,7 @@ import org.openapitools.client.models.Permission
 import org.openapitools.client.models.PushedObject
 import org.openapitools.client.models.Tag
 import org.openapitools.client.models.UserBasic
+import org.openapitools.client.infrastructure.OctetByteArray
 
 import kotlinx.serialization.*
 import kotlinx.serialization.descriptors.*
@@ -76,91 +77,91 @@ import kotlinx.serialization.encoding.*
  */
 @Serializable
 
-data class org.openapitools.client.infrastructure.OctetByteArray (
+data class OctetByteArray (
 
-    @SerialName(value = "sharedBy") val sharedBy: UserBasic? = null,
+    @SerialName("sharedBy") val sharedBy: UserBasic? = null,
 
-    @SerialName(value = "created") val created: kotlin.String? = null,
+    @SerialName("created") val created: kotlin.String? = null,
 
-    @SerialName(value = "mime") val mime: kotlin.String? = null,
+    @SerialName("mime") val mime: kotlin.String? = null,
 
-    @SerialName(value = "permalink") val permalink: kotlin.String? = null,
+    @SerialName("permalink") val permalink: kotlin.String? = null,
 
-    @SerialName(value = "parent") val parent: Folder? = null,
+    @SerialName("parent") val parent: Folder? = null,
 
-    @SerialName(value = "modifier") val modifier: UserBasic? = null,
+    @SerialName("modifier") val modifier: UserBasic? = null,
 
-    @SerialName(value = "locked") val locked: kotlin.Boolean? = null,
+    @SerialName("locked") val locked: kotlin.Boolean? = null,
 
-    @SerialName(value = "tags") val tags: kotlin.collections.List<Tag>? = null,
+    @SerialName("tags") val tags: kotlin.collections.List<Tag>? = null,
 
-    @SerialName(value = "vendorDocId") val vendorDocId: kotlin.String? = null,
+    @SerialName("vendorDocId") val vendorDocId: kotlin.String? = null,
 
-    @SerialName(value = "creator") val creator: UserBasic? = null,
+    @SerialName("creator") val creator: UserBasic? = null,
 
-    @SerialName(value = "expire") val expire: kotlin.String? = null,
+    @SerialName("expire") val expire: kotlin.String? = null,
 
-    @SerialName(value = "sharedTime") val sharedTime: kotlin.String? = null,
+    @SerialName("sharedTime") val sharedTime: kotlin.String? = null,
 
-    @SerialName(value = "adminQuarantineStatus") val adminQuarantineStatus: kotlin.String? = null,
+    @SerialName("adminQuarantineStatus") val adminQuarantineStatus: kotlin.String? = null,
 
-    @SerialName(value = "pathIds") val pathIds: kotlin.String? = null,
+    @SerialName("pathIds") val pathIds: kotlin.String? = null,
 
-    @SerialName(value = "dlpStatus") val dlpStatus: kotlin.String? = null,
+    @SerialName("dlpStatus") val dlpStatus: kotlin.String? = null,
 
-    @SerialName(value = "lockUser") val lockUser: UserBasic? = null,
+    @SerialName("lockUser") val lockUser: UserBasic? = null,
 
-    @SerialName(value = "members") val members: kotlin.collections.List<Member>? = null,
+    @SerialName("members") val members: kotlin.collections.List<Member>? = null,
 
-    @SerialName(value = "permDeleted") val permDeleted: kotlin.Boolean? = null,
+    @SerialName("permDeleted") val permDeleted: kotlin.Boolean? = null,
 
-    @SerialName(value = "userId") val userId: kotlin.String? = null,
+    @SerialName("userId") val userId: kotlin.String? = null,
 
-    @SerialName(value = "clientModified") val clientModified: kotlin.String? = null,
+    @SerialName("clientModified") val clientModified: kotlin.String? = null,
 
-    @SerialName(value = "overriddenExpire") val overriddenExpire: kotlin.Boolean? = null,
+    @SerialName("overriddenExpire") val overriddenExpire: kotlin.Boolean? = null,
 
-    @SerialName(value = "fingerprint") val fingerprint: kotlin.String? = null,
+    @SerialName("fingerprint") val fingerprint: kotlin.String? = null,
 
-    @SerialName(value = "parentId") val parentId: kotlin.String? = null,
+    @SerialName("parentId") val parentId: kotlin.String? = null,
 
-    @SerialName(value = "secure") val secure: kotlin.Boolean? = null,
+    @SerialName("secure") val secure: kotlin.Boolean? = null,
 
-    @SerialName(value = "id") val id: kotlin.String? = null,
+    @SerialName("id") val id: kotlin.String? = null,
 
-    @SerialName(value = "wopiapp") val wopiapp: MobileInfo? = null,
+    @SerialName("wopiapp") val wopiapp: MobileInfo? = null,
 
-    @SerialName(value = "size") val propertySize: kotlin.Int? = null,
+    @SerialName("size") val propertySize: kotlin.Int? = null,
 
-    @SerialName(value = "deleted") val deleted: kotlin.Boolean? = null,
+    @SerialName("deleted") val deleted: kotlin.Boolean? = null,
 
-    @SerialName(value = "avStatus") val avStatus: kotlin.String? = null,
+    @SerialName("avStatus") val avStatus: kotlin.String? = null,
 
-    @SerialName(value = "name") val name: kotlin.String? = null,
+    @SerialName("name") val name: kotlin.String? = null,
 
-    @SerialName(value = "path") val path: kotlin.String? = null,
+    @SerialName("path") val path: kotlin.String? = null,
 
-    @SerialName(value = "fingerprints") val fingerprints: kotlin.collections.List<Fingerprint>? = null,
+    @SerialName("fingerprints") val fingerprints: kotlin.collections.List<Fingerprint>? = null,
 
-    @SerialName(value = "isShared") val isShared: kotlin.Boolean? = null,
+    @SerialName("isShared") val isShared: kotlin.Boolean? = null,
 
-    @SerialName(value = "lastModifiedBy") val lastModifiedBy: UserBasic? = null,
+    @SerialName("lastModifiedBy") val lastModifiedBy: UserBasic? = null,
 
-    @SerialName(value = "pushedObject") val pushedObject: PushedObject? = null,
+    @SerialName("pushedObject") val pushedObject: PushedObject? = null,
 
-    @SerialName(value = "permissions") val permissions: kotlin.collections.List<Permission>? = null,
+    @SerialName("permissions") val permissions: kotlin.collections.List<Permission>? = null,
 
-    @SerialName(value = "modified") val modified: kotlin.String? = null,
+    @SerialName("modified") val modified: kotlin.String? = null,
 
-    @SerialName(value = "pushed") val pushed: kotlin.Boolean? = null,
+    @SerialName("pushed") val pushed: kotlin.Boolean? = null,
 
-    @SerialName(value = "source") val source: kotlin.Int? = null,
+    @SerialName("source") val source: kotlin.Int? = null,
 
-    @SerialName(value = "vendorDocName") val vendorDocName: kotlin.String? = null,
+    @SerialName("vendorDocName") val vendorDocName: kotlin.String? = null,
 
-    @SerialName(value = "type") val type: kotlin.String? = null,
+    @SerialName("type") val type: kotlin.String? = null,
 
-    @SerialName(value = "clientCreated") val clientCreated: kotlin.String? = null
+    @SerialName("clientCreated") val clientCreated: kotlin.String? = null,
 
 )
 

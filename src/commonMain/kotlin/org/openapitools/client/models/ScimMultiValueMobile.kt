@@ -39,11 +39,11 @@ data class ScimMultiValueMobile (
     /**
      * 
      *
-     * Values: mobile
+     * Values: MOBILE
      */
     @Serializable
     enum class Type(val value: kotlin.String) {
-        @SerialName(value = "mobile") mobile("mobile");
+        @SerialName(value = "mobile") MOBILE("mobile");
     }
 }
 

@@ -24,8 +24,8 @@ Return the list of all Activities.
 
 val apiInstance = ActivitiesApi()
 val noDayBack : kotlin.Int = 56 // kotlin.Int | Number of days back to search
-val startDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Start date
-val endDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | End date
+val startDate : kotlin.String = 2013-10-20 // kotlin.String | Start date
+val endDate : kotlin.String = 2013-10-20 // kotlin.String | End date
 val filter : kotlin.String = filter_example // kotlin.String | All or my activities
 val search : kotlin.String = search_example // kotlin.String | Search by mail body, subject and sender/recipients
 val type : kotlin.String = type_example // kotlin.String | Activity type
@@ -52,8 +52,8 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **noDayBack** | **kotlin.Int**| Number of days back to search | [optional]
- **startDate** | **java.time.LocalDate**| Start date | [optional]
- **endDate** | **java.time.LocalDate**| End date | [optional]
+ **startDate** | **kotlin.String**| Start date | [optional]
+ **endDate** | **kotlin.String**| End date | [optional]
  **filter** | **kotlin.String**| All or my activities | [optional]
  **search** | **kotlin.String**| Search by mail body, subject and sender/recipients | [optional]
  **type** | **kotlin.String**| Activity type | [optional]
@@ -94,8 +94,8 @@ Return the list of Activities for this file.
 val apiInstance = ActivitiesApi()
 val fileId : kotlin.String = fileId_example // kotlin.String | ID of the file
 val noDayBack : kotlin.Int = 56 // kotlin.Int | Number of days back to search
-val startDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Start date
-val endDate : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | End date
+val startDate : kotlin.String = 2013-10-20 // kotlin.String | Start date
+val endDate : kotlin.String = 2013-10-20 // kotlin.String | End date
 val filter : kotlin.String = filter_example // kotlin.String | All or my activities
 val search : kotlin.String = search_example // kotlin.String | Search by mail body, subject and sender/recipients
 val type : kotlin.String = type_example // kotlin.String | Activity type
@@ -123,8 +123,8 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **fileId** | **kotlin.String**| ID of the file |
  **noDayBack** | **kotlin.Int**| Number of days back to search | [optional]
- **startDate** | **java.time.LocalDate**| Start date | [optional]
- **endDate** | **java.time.LocalDate**| End date | [optional]
+ **startDate** | **kotlin.String**| Start date | [optional]
+ **endDate** | **kotlin.String**| End date | [optional]
  **filter** | **kotlin.String**| All or my activities | [optional]
  **search** | **kotlin.String**| Search by mail body, subject and sender/recipients | [optional]
  **type** | **kotlin.String**| Activity type | [optional]

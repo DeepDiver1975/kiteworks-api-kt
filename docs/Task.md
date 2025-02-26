@@ -6,15 +6,15 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **kotlin.Int** | Task unique identifier | 
 **assigneeId** | **kotlin.String** | Assigned User unique identifier | 
-**due** | [**java.time.LocalDate**](java.time.LocalDate.md) | Task due date | 
+**due** | **kotlin.String** | Task due date | 
 **userId** | **kotlin.String** | Identifier of User who created a Task | 
-**created** | [**java.time.LocalDate**](java.time.LocalDate.md) | Task creation date | 
+**created** | **kotlin.String** | Task creation date | 
 **status** | **kotlin.String** | Task status | 
 **assignee** | [**User**](User.md) |  |  [optional]
 **parentId** | **kotlin.Int** | Parent Comment identifier |  [optional]
 **objectId** | **kotlin.String** | Object identifier Task belongs to |  [optional]
 **user** | [**User**](User.md) |  |  [optional]
-**modified** | [**java.time.LocalDate**](java.time.LocalDate.md) | Task modification date |  [optional]
+**modified** | **kotlin.String** | Task modification date |  [optional]
 **contents** | **kotlin.String** | Task content |  [optional]
 **deleted** | **kotlin.Boolean** | Indicates that Task is deleted |  [optional]
 **folderId** | **kotlin.String** | Identifier of Object&#39;s parent Folder |  [optional]

@@ -61,28 +61,28 @@ data class CardActionPostRequest (
     /**
      * Action to take (e.g. dismiss, retry, delete)
      *
-     * Values: retry,delete
+     * Values: RETRY,DELETE
      */
     @Serializable
     enum class Action(val value: kotlin.String) {
-        @SerialName(value = "retry") retry("retry"),
-        @SerialName(value = "delete") delete("delete");
+        @SerialName(value = "retry") RETRY("retry"),
+        @SerialName(value = "delete") DELETE("delete");
     }
     /**
      * Type of card to retrieve. Available card type(s): content_encryption,email_json_migration,event_log_partitioning_migration,system_security_scanning,events_table_monitor,appadmin_db,sysadmin_db,sysadmin_hosts
      *
-     * Values: contentEncryption,emailJsonMigration,eventLogPartitioningMigration,systemSecurityScanning,eventsTableMonitor,appadminDb,sysadminDb,sysadminHosts
+     * Values: CONTENT_ENCRYPTION,EMAIL_JSON_MIGRATION,EVENT_LOG_PARTITIONING_MIGRATION,SYSTEM_SECURITY_SCANNING,EVENTS_TABLE_MONITOR,APPADMIN_DB,SYSADMIN_DB,SYSADMIN_HOSTS
      */
     @Serializable
     enum class Type(val value: kotlin.String) {
-        @SerialName(value = "content_encryption") contentEncryption("content_encryption"),
-        @SerialName(value = "email_json_migration") emailJsonMigration("email_json_migration"),
-        @SerialName(value = "event_log_partitioning_migration") eventLogPartitioningMigration("event_log_partitioning_migration"),
-        @SerialName(value = "system_security_scanning") systemSecurityScanning("system_security_scanning"),
-        @SerialName(value = "events_table_monitor") eventsTableMonitor("events_table_monitor"),
-        @SerialName(value = "appadmin_db") appadminDb("appadmin_db"),
-        @SerialName(value = "sysadmin_db") sysadminDb("sysadmin_db"),
-        @SerialName(value = "sysadmin_hosts") sysadminHosts("sysadmin_hosts");
+        @SerialName(value = "content_encryption") CONTENT_ENCRYPTION("content_encryption"),
+        @SerialName(value = "email_json_migration") EMAIL_JSON_MIGRATION("email_json_migration"),
+        @SerialName(value = "event_log_partitioning_migration") EVENT_LOG_PARTITIONING_MIGRATION("event_log_partitioning_migration"),
+        @SerialName(value = "system_security_scanning") SYSTEM_SECURITY_SCANNING("system_security_scanning"),
+        @SerialName(value = "events_table_monitor") EVENTS_TABLE_MONITOR("events_table_monitor"),
+        @SerialName(value = "appadmin_db") APPADMIN_DB("appadmin_db"),
+        @SerialName(value = "sysadmin_db") SYSADMIN_DB("sysadmin_db"),
+        @SerialName(value = "sysadmin_hosts") SYSADMIN_HOSTS("sysadmin_hosts");
     }
 }
 

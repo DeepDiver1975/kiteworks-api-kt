@@ -71,7 +71,7 @@ data class Version (
     @SerialName(value = "deleted") val deleted: kotlin.Boolean? = null,
 
     /* File Version creation date */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* File content size */
     @SerialName(value = "size") val propertySize: kotlin.Int? = null,
@@ -91,10 +91,10 @@ data class Version (
     @SerialName(value = "creator") val creator: UserBasicInfo? = null,
 
     /* Original created time of the file */
-    @SerialName(value = "clientCreated") val clientCreated: java.time.LocalDate? = null,
+    @SerialName(value = "clientCreated") val clientCreated: kotlin.String? = null,
 
     /* Original modified time of the file */
-    @SerialName(value = "clientModified") val clientModified: java.time.LocalDate? = null,
+    @SerialName(value = "clientModified") val clientModified: kotlin.String? = null,
 
     /* Check file availability status according to AV settings and file scanned/infected status */
     @SerialName(value = "avStatus") val avStatus: kotlin.String? = null,

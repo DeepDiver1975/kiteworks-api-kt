@@ -56,7 +56,7 @@ data class ActivityAdmin (
     @SerialName(value = "user") @Required val user: kotlin.String,
 
     /* Activity creation date */
-    @SerialName(value = "created") val created: java.time.LocalDate? = null,
+    @SerialName(value = "created") val created: kotlin.String? = null,
 
     /* Contains information about affected entities */
     @SerialName(value = "data") val `data`: kotlin.collections.List<kotlin.String>? = null,

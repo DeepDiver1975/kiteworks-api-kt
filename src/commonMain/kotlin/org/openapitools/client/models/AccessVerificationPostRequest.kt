@@ -40,12 +40,12 @@ data class AccessVerificationPostRequest (
     /**
      * 
      *
-     * Values: submitted,cancelled
+     * Values: SUBMITTED,CANCELLED
      */
     @Serializable
     enum class Status(val value: kotlin.String) {
-        @SerialName(value = "submitted") submitted("submitted"),
-        @SerialName(value = "cancelled") cancelled("cancelled");
+        @SerialName(value = "submitted") SUBMITTED("submitted"),
+        @SerialName(value = "cancelled") CANCELLED("cancelled");
     }
 }
 

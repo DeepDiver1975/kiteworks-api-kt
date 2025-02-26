@@ -8,10 +8,10 @@ Name | Type | Description | Notes
 **senderId** | **kotlin.String** | Unique identifier of User who sent Email | 
 **status** | **kotlin.String** | Email status | 
 **type** | **kotlin.String** | Email type | 
-**date** | [**java.time.LocalDate**](java.time.LocalDate.md) |  | 
+**date** | **kotlin.String** |  | 
 **emailPackageId** | **kotlin.String** | Email Package unique identifier | 
 **recipients** | [**kotlin.collections.List&lt;Recipient&gt;**](Recipient.md) |  | 
-**modifiedDate** | [**java.time.LocalDate**](java.time.LocalDate.md) |  | 
+**modifiedDate** | **kotlin.String** |  | 
 **parentEmailId** | **kotlin.String** | Identifier of parent email | 
 **subject** | **kotlin.String** |  | 
 **templateId** | **kotlin.Int** | Email template unique identifier |  [optional]
@@ -20,7 +20,7 @@ Name | Type | Description | Notes
 **isUserSent** | **kotlin.Boolean** | Indicates that email was sent by some user |  [optional]
 **watermark** | **kotlin.String** | The watermark on the preview email |  [optional]
 **&#x60;package&#x60;** | [**Package**](Package.md) |  |  [optional]
-**expirationDate** | [**kotlinx.datetime.Instant**](kotlinx.datetime.Instant.md) |  |  [optional]
+**expirationDate** | **kotlin.String** |  |  [optional]
 **attachmentCount** | **kotlin.Boolean** |  |  [optional]
 **sender** | [**UserBasicInfo**](UserBasicInfo.md) |  |  [optional]
 **variables** | **kotlin.collections.List&lt;kotlin.String&gt;** |  |  [optional]

@@ -135,8 +135,8 @@ val ref : kotlin.String = ref_example // kotlin.String | Request file short link
 val body : io.ktor.client.request.forms.InputProvider = BINARY_DATA_HERE // io.ktor.client.request.forms.InputProvider | file content
 val returnEntity : kotlin.Boolean = true // kotlin.Boolean | Return information about newly created entity
 val mode : kotlin.String = mode_example // kotlin.String | Response mode
-val clientCreated : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Client created field for the file
-val clientModified : java.time.LocalDate = 2013-10-20 // java.time.LocalDate | Client modified field for the file
+val clientCreated : kotlin.String = 2013-10-20 // kotlin.String | Client created field for the file
+val clientModified : kotlin.String = 2013-10-20 // kotlin.String | Client modified field for the file
 try {
     apiInstance.restRequestFileRefActionsFilePost(ref, body, returnEntity, mode, clientCreated, clientModified)
 } catch (e: ClientException) {
@@ -156,8 +156,8 @@ Name | Type | Description  | Notes
  **body** | **io.ktor.client.request.forms.InputProvider**| file content |
  **returnEntity** | **kotlin.Boolean**| Return information about newly created entity | [optional]
  **mode** | **kotlin.String**| Response mode | [optional]
- **clientCreated** | **java.time.LocalDate**| Client created field for the file | [optional]
- **clientModified** | **java.time.LocalDate**| Client modified field for the file | [optional]
+ **clientCreated** | **kotlin.String**| Client created field for the file | [optional]
+ **clientModified** | **kotlin.String**| Client modified field for the file | [optional]
 
 ### Return type
 

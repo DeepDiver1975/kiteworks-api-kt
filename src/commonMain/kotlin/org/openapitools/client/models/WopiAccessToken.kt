@@ -34,7 +34,7 @@ data class WopiAccessToken (
     @SerialName(value = "accessToken") val accessToken: kotlin.String? = null,
 
     /* Object expiry date */
-    @SerialName(value = "expires") val expires: kotlinx.datetime.Instant? = null
+    @SerialName(value = "expires") val expires: kotlin.String? = null
 
 )
 
